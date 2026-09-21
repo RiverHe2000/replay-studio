@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "timeline": "normalized_video_seconds",
+  "source_sha256": "e944ddc772ad4668b3917db39f21b469202c0fd3b4bc36bbf294ab1303ff569e",
+  "clips": [
+    {
+      "id": "8dcc09a4a99cf68042e5",
+      "start": 0.0,
+      "end": 19.58,
+      "title": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE",
+      "subtitle": "The error says database URL is missing. We need to inspect the environment file. Open the environment file. Add the database URL for local postgres and save the file.",
+      "evidence_ids": [
+        "5e221e9fc8494c18ca68",
+        "f591fe82b6256d84d368",
+        "350d91d59cd5eff30962",
+        "6d883536730728869853",
+        "18d6257ef35d4da8e9eb"
+      ],
+      "source_start": 0.0,
+      "source_end": 19.58,
+      "output_start": 0.0,
+      "output_end": 19.566667
+    }
+  ],
+  "requested_duration": 19.58,
+  "encoded_duration": 19.566667,
+  "boundary_tolerance_seconds": 0.03333333333333333,
+  "subtitle_origin": "user-reviewed clip subtitles; not necessarily verbatim transcription",
+  "source_asset_id": "f57c394c25624cd4a64b0975807a4071",
+  "analysis_run_id": "ccfdc47b11d9439a9f1e8f10ee9a48b3",
+  "timeline_version": 1,
+  "original_sha256": "635a81ac2d4dbc0dc4b56f49055ebfd7dbcaf8bd22fb6ae30d5279c6acb058df",
+  "proxy_sha256": "e944ddc772ad4668b3917db39f21b469202c0fd3b4bc36bbf294ab1303ff569e",
+  "source_sha256_kind": "normalized_proxy",
+  "source_time_origin": 0.021029,
+  "analysis_fingerprint": "53b6bc5c346287f3341aa164cf2317065aefe649e490d63e9a9dc12f3b0d5286"
+}

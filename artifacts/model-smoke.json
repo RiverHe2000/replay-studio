@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-09-19T08:31:41.285802+00:00",
+  "python": "3.12.0",
+  "device": "mixed; execution device is recorded per test",
+  "network_mode": "HF_HUB_OFFLINE=1; cached real model weights",
+  "versions": {
+    "numpy": "2.2.6",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "5.16.1",
+    "Pillow": "12.3.0",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.2",
+    "rapidocr": "3.9.2",
+    "onnxruntime": "1.29.0"
+  },
+  "analysis_code_sha256": "513b5c2a837eaf3796800d43d15217ff01cf15b6eddf016f6279b234f8a08701",
+  "vlm": {
+    "result": {
+      "status": "complete",
+      "model": "HuggingFaceTB/SmolVLM-256M-Instruct",
+      "observations": [
+        {
+          "time": 0.0,
+          "frame": "frames/frame_000001.jpg",
+          "text": "Screen displaying the software screenshot.",
+          "kind": "model_interpretation"
+        }
+      ],
+      "warning": "VLM captions are unverified interpretations of at most 12 sampled frames.",
+      "model_revision": "7e3e67edbbed1bf9888184d9df282b700a323964",
+      "package_version": "5.16.1"
+    },
+    "elapsed_seconds": 11.609,
+    "frame_sha256": "592731b828f48ba4fc764294c40433ac4b7fdcfca8713570b72a02a3bc3d791a",
+    "source_kind": "single sampled frame from the scripted engineering demo fixture",
+    "device": "cpu"
+  },
+  "clip_query_encoder": {
+    "model": "openai/clip-vit-base-patch32",
+    "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "queries": [
+      "an error dialog on a computer screen",
+      "successful terminal command"
+    ],
+    "shape": [
+      512
+    ],
+    "finite": true,
+    "norms": [
+      1.0,
+      0.9999999403953552
+    ],
+    "first_values": [
+      -0.027033383026719093,
+      0.07375342398881912,
+      -0.04325268045067787,
+      -0.007122836075723171,
+      -0.01978193037211895,
+      0.008280379697680473,
+      0.0018892526859417558,
+      0.0026612274814397097
+    ],
+    "first_model_load_seconds": 0.328,
+    "cached_second_query_seconds": 0.0,
+    "device": "cpu"
+  },
+  "limitations": [
+    "Real inference smoke tests, not a retrieval accuracy benchmark or user study.",
+    "The single VLM caption is generic and does not establish event-understanding gains over OCR.",
+    "CLIP runs on CPU in search; similarity is not calibrated confidence or verified semantics.",
+    "These one-off timings reflect this machine, cache state and prior imports; they are not a serving SLO.",
+    "The fixture frame is identified by hash; this does not validate its extraction timestamp. Timing alignment is separately covered by the real FFmpeg tests.",
+    "Planner candidates in this smoke test are explicitly authored inputs; successful ID selection is not an end-to-end editing quality result.",
+    "Qwen2.5 0.5B and 1.5B real CPU outputs failed strict validation; Qwen3 4B succeeded on the same two-candidate task. The 0.5B raw response was not retained, only the observed validation error.",
+    "CUDA checks cover one CLIP frame and eight seconds of Whisper audio on the recorded RTX 4070; they do not establish GPU scheduling or Docker runtime correctness.",
+    "The Qwen3 model was loaded from a local directory and has no reported remote commit; the local config hash is recorded but does not pin all weight files."
+  ],
+  "planner_cpu_attempts": [
+    {
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "Planner selected an unknown evidence ID",
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "device": "cpu",
+      "elapsed_seconds": 15.672
+    },
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "device": "cpu",
+      "query": "Show the error first, then the successful fix.",
+      "candidates": [
+        {
+          "id": "error-start",
+          "start": 0,
+          "end": 4,
+          "text": "The terminal shows ConnectionError: DATABASE_URL missing.",
+          "modalities": [
+            "screen"
+          ],
+          "uncertain": false
+        },
+        {
+          "id": "fix-success",
+          "start": 12,
+          "end": 16,
+          "text": "The missing DATABASE_URL value is saved; restart succeeds and health check returns 200.",
+          "modalities": [
+            "speech",
+            "screen"
+          ],
+          "uncertain": false
+        }
+      ],
+      "input_kind": "two explicitly authored smoke-test candidates, not media extraction or quality evaluation",
+      "result": {
+        "text": "[{\"id\":\"error-start\"},{\"id\":\"fix-success\"}]",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "device": "cpu",
+        "elapsed_seconds": 9.282,
+        "package_version": "5.16.1"
+      },
+      "status": "rejected",
+      "error_type": "ValueError",
+      "error": "Planner may return only evidence_ids",
+      "elapsed_seconds": 16.11,
+      "analysis_code_sha256": "9b9988fe0239ba08f2e773c7e0bd181572c743911dc467fc5f35402ad33bfa2a"
+    },
+    {
+      "model": "D:/models/Qwen3-4B-Instruct-2507",
+      "device": "cpu",
+      "query": "Show the error first, then the successful fix.",
+      "candidates": [
+        {
+          "id": "error-start",
+          "start": 0,
+          "end": 4,
+          "text": "The terminal shows ConnectionError: DATABASE_URL missing.",
+          "modalities": [
+            "screen"
+          ],
+          "uncertain": false
+        },
+        {
+          "id": "fix-success",
+          "start": 12,
+          "end": 16,
+          "text": "The missing DATABASE_URL value is saved; restart succeeds and health check returns 200.",
+          "modalities": [
+            "speech",
+            "screen"
+          ],
+          "uncertain": false
+        }
+      ],
+      "input_kind": "two explicitly authored smoke-test candidates, not media extraction or quality evaluation",
+      "result": {
+        "text": "{\"evidence_ids\": [\"error-start\", \"fix-success\"]}",
+        "model": "D:/models/Qwen3-4B-Instruct-2507",
+        "model_revision": null,
+        "device": "cpu",
+        "elapsed_seconds": 26.781,
+        "package_version": "5.16.1"
+      },
+      "validated_ids": [
+        "error-start",
+        "fix-success"
+      ],
+      "status": "complete",
+      "elapsed_seconds": 31.968,
+      "analysis_code_sha256": "9b9988fe0239ba08f2e773c7e0bd181572c743911dc467fc5f35402ad33bfa2a",
+      "local_model_config_sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba"
+    }
+  ],
+  "cuda_device": {
+    "available": true,
+    "name": "NVIDIA GeForce RTX 4070",
+    "torch_cuda": "12.8"
+  },
+  "clip_cuda": {
+    "result": {
+      "index": "visual.npz",
+      "model": "openai/clip-vit-base-patch32",
+      "status": "complete",
+      "warning": "CLIP similarity is a ranking signal, not verified semantic evidence.",
+      "frames": 1,
+      "dimensions": 512,
+      "vlm": {
+        "status": "disabled",
+        "model": null,
+        "observations": [],
+        "warning": null
+      },
+      "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "package_version": "5.16.1",
+      "elapsed_seconds": 8.469
+    },
+    "elapsed_seconds": 8.469,
+    "frame_sha256": "e31ac1ff5e48645f963188d30c97162146ee1a9386725b805d3a9a70aba66506",
+    "input_kind": "one frame from the scripted demo fixture, CUDA execution smoke only",
+    "device": "cuda"
+  },
+  "asr_cuda": {
+    "status": "complete",
+    "audio_sha256": "f6d533fadd55c09f5e14e63358a97914f427a76124debe35cbb8f9d2347ae75e",
+    "duration_seconds": 8,
+    "input_kind": "first 8 seconds of scripted demo TTS narration",
+    "result": {
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 8.0,
+          "text": "the application fails to start, the error says database URL is missing, we need to inspect"
+        }
+      ],
+      "backend": "faster-whisper:base",
+      "status": "complete",
+      "warning": null,
+      "language": "en",
+      "duration": 8.0,
+      "device": "cuda",
+      "package_version": "1.2.1",
+      "model_revision": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+      "elapsed_seconds": 1.109
+    },
+    "device": "cuda"
+  },
+  "updated_at": "2026-09-19T08:40:39.110377+00:00",
+  "asr_cpu_revision_resolution": {
+    "device": "cpu",
+    "result": {
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 2.4,
+          "text": "The application fails to start."
+        },
+        {
+          "start": 2.88,
+          "end": 6.16,
+          "text": "The error says database URL is missing."
+        },
+        {
+          "start": 6.64,
+          "end": 8.0,
+          "text": "We need to inspect..."
+        }
+      ],
+      "backend": "faster-whisper:base",
+      "status": "complete",
+      "warning": null,
+      "language": "en",
+      "duration": 8.0,
+      "device": "cpu",
+      "package_version": "1.2.1",
+      "requested_revision": null,
+      "model_revision": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+      "elapsed_seconds": 2.203
+    },
+    "audio_sha256": "f6d533fadd55c09f5e14e63358a97914f427a76124debe35cbb8f9d2347ae75e",
+    "input_kind": "8 seconds of scripted demo TTS, default base model resolved through download_model before WhisperModel loading",
+    "analysis_code_sha256": "bc0527a0b140030762009eb729e1afff6cd381caa9d70ddb9c30a1ab184789fc"
+  }
+}

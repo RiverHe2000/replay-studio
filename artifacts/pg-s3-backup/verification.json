@@ -1,0 +1,96 @@
+{
+  "status": "pass",
+  "profile": "postgresql/s3",
+  "finished_at": "2026-09-19T08:44:39.355977+00:00",
+  "table_counts": {
+    "auth_limits": 1,
+    "resources": 2,
+    "schema_version": 1,
+    "workers": 2,
+    "projects": 2,
+    "assets": 2,
+    "comments": 0,
+    "users": 2,
+    "exports": 1,
+    "jobs": 11,
+    "runs": 2,
+    "members": 2,
+    "sessions": 3,
+    "timelines": 1,
+    "uploads": 2
+  },
+  "source_table_counts_compared": true,
+  "verified_objects": 39,
+  "functional": {
+    "asset_id": "344001db0ac34594b3d465e03e3c51d4",
+    "run_id": "0f0bbfe436d54733b270b3820d7fe12a",
+    "original_sha256_verified": true,
+    "source_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "30.000000"
+      }
+    },
+    "query": "The application fails to start.",
+    "retrieval_hits": 6,
+    "rerender_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "3.021333"
+      }
+    },
+    "http_login_media_export_verified": true,
+    "existing_export_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "19.601333"
+      }
+    }
+  },
+  "deep_windows_cache_regression": "pass",
+  "readback_cache": "D:\\Project\\replay-studio\\artifacts\\pg-s3-backup\\restored-verification\\object-readback\\object_cache",
+  "resolved_failure": "S3 download originally exceeded Windows path limit through nested temporary names; retested same directory after short staging fix.",
+  "backup": {
+    "database": "postgresql",
+    "files": 40,
+    "bytes": 3220341
+  },
+  "restore": {
+    "database": "postgresql",
+    "restored_files": 40,
+    "target": "isolated new database and S3 bucket"
+  }
+}

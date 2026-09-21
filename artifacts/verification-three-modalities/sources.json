@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "timeline": "normalized_video_seconds",
+  "source_sha256": "e944ddc772ad4668b3917db39f21b469202c0fd3b4bc36bbf294ab1303ff569e",
+  "clips": [
+    {
+      "id": "68d6a69c5cb6dfe9a95a",
+      "start": 0.0,
+      "end": 20.0,
+      "title": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE",
+      "subtitle": "The error says database URL is missing. We need to inspect the environment file. Open the environment file. Add the database URL for local postgres and save the file. The verification reports 12 tests passed and the health endpoint returns to",
+      "evidence_ids": [
+        "5e221e9fc8494c18ca68",
+        "13b0f72751c8c088668d",
+        "ad96c1f1d0efe60c8516",
+        "d5d10d8f0a142e457eee",
+        "578d5cb3f3935a9f8182",
+        "fc9db50c8c624ec349d9",
+        "632288413736afef9769",
+        "11c63e5e91d4442decb0"
+      ],
+      "source_start": 0.0,
+      "source_end": 20.0,
+      "output_start": 0.0,
+      "output_end": 20.0
+    }
+  ],
+  "requested_duration": 20.0,
+  "encoded_duration": 20.0,
+  "boundary_tolerance_seconds": 0.03333333333333333,
+  "subtitle_origin": "user-reviewed clip subtitles; not necessarily verbatim transcription"
+}

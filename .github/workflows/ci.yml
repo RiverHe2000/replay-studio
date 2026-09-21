@@ -1,0 +1,62 @@
+name: Verify Replay Studio
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg espeak-ng
+      - run: python -m pip install --require-hashes -r requirements-dev.lock
+      - run: python -m pip install --no-deps -e .
+      - run: ruff check src tests scripts
+      - run: pytest -m 'not models' -q
+      - name: Generate real encoded fixture
+        run: python scripts/generate_fixture.py --audio --out artifacts/fixture
+      - name: Validate deployment configuration
+        env:
+          POSTGRES_PASSWORD: ci-config-validation-only
+          MINIO_ROOT_PASSWORD: ci-config-validation-only
+        run: docker compose config --quiet
+      - uses: actions/upload-artifact@v4
+        with:
+          name: scripted-fixture
+          path: artifacts/fixture/scripted_debugging.mp4
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: '11.19.0'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+          cache-dependency-path: frontend/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+
+  container:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build portable CPU image
+        run: docker build --target runtime -t replay-studio:ci .
+      - name: Validate executable image contract
+        run: docker run --rm replay-studio:ci python -m replay_studio.cli --help

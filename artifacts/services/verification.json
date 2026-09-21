@@ -1,0 +1,16 @@
+{
+  "started_at": "2026-09-19T08:36:02.818784+00:00",
+  "profile": "postgresql+s3",
+  "checks": {
+    "s3_download_through_independent_cache": "pass",
+    "eight_concurrent_prepare_claims_one_owner": "pass",
+    "postgres_expired_token_fenced_then_real_worker_prepare": "pass",
+    "global_gpu_lease_excludes_concurrent_claims": "pass"
+  },
+  "asset_id": "5ba408a78bd44956bb6033d70ce0b0d2",
+  "project_id": "001f3f56cfe9495d83f35a5b449f9dfb",
+  "run_id": "3920ab22b977463fa05725dbfd8ca237",
+  "status": "pass",
+  "finished_at": "2026-09-19T08:36:07.949352+00:00",
+  "deleted_probe_asset": true
+}

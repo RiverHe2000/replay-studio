@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "evidence_type": "separate visual inspection of the reviewed local demo; not a rerun of the three browser integration tests",
+  "profile": "8080 demo, pipeline version 2; artifacts/demo-reviewed",
+  "captured_at": "2026-09-19T08:42:04.332Z",
+  "source_verification": "../demo-reviewed/verification.json",
+  "screenshot": "demo-ready.png",
+  "sha256": "8a2695133a9a712b3d431783de7a432bdcd6987c84c627b364cd05ce22b5d243",
+  "interaction": {
+    "mode": "fusion",
+    "query": "DATABASE_URL",
+    "status": 200,
+    "hit_count": 3,
+    "returned_modalities": [
+      "screen"
+    ],
+    "saved_timeline_version": 1,
+    "clip_count": 1,
+    "ready_exports": 1
+  },
+  "limitations": [
+    "Synthetic footage and local demo account; not a user study or model-quality benchmark.",
+    "This capture checks the ready workspace and a real fusion search; it does not rerun the three tests recorded in summary.json."
+  ],
+  "visual_review": "Reviewed at full-page resolution: real player frame, fusion search results, saved timeline and ready workspace; synthetic demo account only; no password, cookies or traces published."
+}

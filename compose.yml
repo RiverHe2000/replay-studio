@@ -1,0 +1,150 @@
+name: replay-studio
+
+x-app: &app
+  image: replay-studio:local
+  platform: linux/amd64
+  build:
+    context: .
+    target: runtime
+  environment: &app-env
+    REPLAY_DATABASE_URL: postgresql+psycopg://replay:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/replay
+    REPLAY_DATA_DIR: /data
+    REPLAY_STORAGE: s3
+    REPLAY_S3_ENDPOINT: http://minio:9000
+    REPLAY_S3_BUCKET: replay-studio
+    REPLAY_S3_ACCESS_KEY: ${MINIO_ROOT_USER:-replay-admin}
+    REPLAY_S3_SECRET_KEY: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD in .env}
+    REPLAY_S3_REGION: us-east-1
+    REPLAY_ASR_MODEL: ${REPLAY_ASR_MODEL:-base}
+    REPLAY_VISUAL_MODEL: ${REPLAY_VISUAL_MODEL:-openai/clip-vit-base-patch32}
+    REPLAY_VLM_MODEL: ${REPLAY_VLM_MODEL:-}
+    REPLAY_PLANNER_DEVICE: cpu
+    REPLAY_MODEL_DEVICE: ${REPLAY_MODEL_DEVICE:-cpu}
+    REPLAY_LEASE_SECONDS: 90
+    REPLAY_REGISTRATION_OPEN: ${REPLAY_REGISTRATION_OPEN:-false}
+    REPLAY_SECURE_COOKIES: ${REPLAY_SECURE_COOKIES:-false}
+    HF_HOME: /models/huggingface
+  init: true
+
+services:
+  postgres:
+    image: postgres:16-bookworm
+    environment:
+      POSTGRES_DB: replay
+      POSTGRES_USER: replay
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U replay -d replay"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+
+  minio:
+    image: quay.io/minio/minio:RELEASE.2025-09-07T16-13-09Z
+    command: server /data --console-address :9001
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-replay-admin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD in .env}
+    volumes:
+      - minio-data:/data
+    ports:
+      - 127.0.0.1:9001:9001
+    healthcheck:
+      test: [CMD, curl, -f, http://localhost:9000/minio/health/live]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+
+  bucket:
+    image: quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z
+    depends_on:
+      minio:
+        condition: service_healthy
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-replay-admin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD in .env}
+    entrypoint: [/bin/sh, -ec]
+    command:
+      - mc alias set local http://minio:9000 "$$MINIO_ROOT_USER" "$$MINIO_ROOT_PASSWORD"; mc mb --ignore-existing local/replay-studio
+
+  bootstrap:
+    <<: *app
+    command: [python, -c, "from replay_studio.config import Config; from replay_studio.store import Store; Store(Config.from_env()); print('schema initialized')"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      bucket:
+        condition: service_completed_successfully
+    volumes:
+      - api-data:/data
+
+  api:
+    <<: *app
+    ports:
+      - 127.0.0.1:${REPLAY_PORT:-8080}:8080
+    volumes:
+      - api-data:/data
+      - model-cache:/models
+    depends_on:
+      bootstrap:
+        condition: service_completed_successfully
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8080/api/health',timeout=5)"]
+      interval: 15s
+      timeout: 7s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+  cpu-worker:
+    <<: *app
+    command: [python, -m, replay_studio.cli, worker, --queue, cpu]
+    volumes:
+      - cpu-data:/data
+      - model-cache:/models
+    depends_on:
+      bootstrap:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  accelerator-worker:
+    <<: *app
+    # GPU is a resource queue; this portable worker executes it on CPU.
+    command: [python, -m, replay_studio.cli, worker, --queue, gpu]
+    volumes:
+      - accelerator-data:/data
+      - model-cache:/models
+    depends_on:
+      bootstrap:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  gpu-worker:
+    <<: *app
+    profiles: [cuda]
+    image: replay-studio:cuda
+    build:
+      context: .
+      target: cuda
+    command: [python, -m, replay_studio.cli, worker, --queue, gpu]
+    gpus: all
+    volumes:
+      - gpu-data:/data
+      - model-cache:/models
+    depends_on:
+      bootstrap:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+volumes:
+  postgres-data:
+  minio-data:
+  api-data:
+  cpu-data:
+  accelerator-data:
+  gpu-data:
+  model-cache:

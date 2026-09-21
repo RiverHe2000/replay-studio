@@ -1,0 +1,303 @@
+{
+  "evidence_type": "development fixture screen-only spot check, chosen after observing fixture; not held-out accuracy",
+  "source_window": [
+    10,
+    20
+  ],
+  "queries": [
+    {
+      "query": "PORT",
+      "results": {
+        "speech": [],
+        "speech_ocr": [
+          {
+            "id": "023534be3f1ab6881b6d",
+            "start": 9.5,
+            "end": 12.0,
+            "score": 0.01639344,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000006.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 10.0,
+                "end": 10.033333333333333,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          },
+          {
+            "id": "1ec9dda0029d3c5b5f48",
+            "start": 17.5,
+            "end": 20.0,
+            "score": 0.01538462,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000010.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 18.0,
+                "end": 18.033333333333335,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          }
+        ],
+        "fusion": [
+          {
+            "id": "023534be3f1ab6881b6d",
+            "start": 9.5,
+            "end": 12.0,
+            "score": 0.01639344,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000006.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 10.0,
+                "end": 10.033333333333333,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          },
+          {
+            "id": "1ec9dda0029d3c5b5f48",
+            "start": 17.5,
+            "end": 20.0,
+            "score": 0.01538462,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000010.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 18.0,
+                "end": 18.033333333333335,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          }
+        ]
+      }
+    },
+    {
+      "query": "8080",
+      "results": {
+        "speech": [],
+        "speech_ocr": [
+          {
+            "id": "023534be3f1ab6881b6d",
+            "start": 9.5,
+            "end": 12.0,
+            "score": 0.01639344,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000006.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 10.0,
+                "end": 10.033333333333333,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          },
+          {
+            "id": "1ec9dda0029d3c5b5f48",
+            "start": 17.5,
+            "end": 20.0,
+            "score": 0.01538462,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000010.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 18.0,
+                "end": 18.033333333333335,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          }
+        ],
+        "fusion": [
+          {
+            "id": "023534be3f1ab6881b6d",
+            "start": 9.5,
+            "end": 12.0,
+            "score": 0.01639344,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000006.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 10.0,
+                "end": 10.033333333333333,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          },
+          {
+            "id": "1ec9dda0029d3c5b5f48",
+            "start": 17.5,
+            "end": 20.0,
+            "score": 0.01538462,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000010.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 18.0,
+                "end": 18.033333333333335,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          }
+        ]
+      }
+    },
+    {
+      "query": "PORT 8080",
+      "results": {
+        "speech": [],
+        "speech_ocr": [
+          {
+            "id": "023534be3f1ab6881b6d",
+            "start": 9.5,
+            "end": 12.0,
+            "score": 0.01639344,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000006.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 10.0,
+                "end": 10.033333333333333,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          },
+          {
+            "id": "1ec9dda0029d3c5b5f48",
+            "start": 17.5,
+            "end": 20.0,
+            "score": 0.01538462,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000010.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 18.0,
+                "end": 18.033333333333335,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          }
+        ],
+        "fusion": [
+          {
+            "id": "023534be3f1ab6881b6d",
+            "start": 9.5,
+            "end": 12.0,
+            "score": 0.01639344,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000006.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 10.0,
+                "end": 10.033333333333333,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          },
+          {
+            "id": "1ec9dda0029d3c5b5f48",
+            "start": 17.5,
+            "end": 20.0,
+            "score": 0.01538462,
+            "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+            "modalities": [
+              "screen"
+            ],
+            "frame": "frames/frame_000010.jpg",
+            "evidence": [
+              {
+                "modality": "screen",
+                "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+                "time": 18.0,
+                "end": 18.033333333333335,
+                "source": "ocr"
+              }
+            ],
+            "uncertain": false,
+            "score_kind": "reciprocal_rank_fusion"
+          }
+        ]
+      }
+    }
+  ]
+}

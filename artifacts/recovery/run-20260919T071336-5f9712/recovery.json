@@ -1,0 +1,19 @@
+{
+  "experiment": "actual process crash and fenced recovery",
+  "source": "D:\\Project\\replay-studio\\data\\fixtures\\debugging\\scripted_debugging.mp4",
+  "directory": "D:\\Project\\replay-studio\\artifacts\\recovery\\run-20260919T071336-5f9712",
+  "started_at": "2026-09-19T07:13:36.620441+00:00",
+  "terminated_pid": 23828,
+  "first_attempt": 1,
+  "status": "pass",
+  "replacement_pid": 10836,
+  "completed_attempt": 2,
+  "stale_completion_rejected": true,
+  "immutable_prefix_changed": true,
+  "proxy": {
+    "format": {
+      "duration": "30.000000"
+    }
+  },
+  "finished_at": "2026-09-19T07:13:41.995644+00:00"
+}

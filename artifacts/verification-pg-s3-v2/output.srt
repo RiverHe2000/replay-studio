@@ -1,0 +1,3 @@
+1
+00:00:00,000 --> 00:00:19,567
+The error says database URL is missing. We need to inspect the environment file. Open the environment file. Add the database URL for local postgres and save the file.

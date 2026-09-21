@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "evidence_type": "real-browser integration against a live local API using an explicitly scripted video fixture and synthetic test account",
+  "source": "sanitized fields extracted from the completed Playwright HTML report; no trace, cookies, request headers or credentials included",
+  "started_at": "2026-09-19T08:38:10.168000+00:00",
+  "duration_ms": 15628.886,
+  "status": "passed",
+  "statistics": {
+    "total": 3,
+    "expected": 3,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true
+  },
+  "environment": {
+    "platform": "Windows x64",
+    "browser": "Google Chrome 153.0.8010.48",
+    "runner": "@playwright/test 1.63.0",
+    "workers": 1,
+    "api": "loopback test service; production build served by FastAPI",
+    "profile": "8087 verification-local; original three-test run, independent of the later 8080 demo screenshot"
+  },
+  "tests": [
+    {
+      "title": "real source: evidence search, version save, local edit preservation and conflict recovery",
+      "source": "frontend/e2e/studio.spec.ts",
+      "line": 7,
+      "duration_ms": 12219,
+      "outcome": "expected",
+      "passed": true
+    },
+    {
+      "title": "project creation and chunked binary upload use the live API",
+      "source": "frontend/e2e/studio.spec.ts",
+      "line": 211,
+      "duration_ms": 1279,
+      "outcome": "expected",
+      "passed": true
+    },
+    {
+      "title": "discarding a paused upload cancels server storage; a failed discard retains the resume handle",
+      "source": "frontend/e2e/studio.spec.ts",
+      "line": 262,
+      "duration_ms": 1220,
+      "outcome": "expected",
+      "passed": true
+    }
+  ],
+  "coverage": [
+    "Cookie login and CSRF-authenticated mutations",
+    "Real evidence search on a processed recording",
+    "Timeline edits and version save",
+    "Dirty edits survive polling and version conflict",
+    "Explicit conflict recovery",
+    "Existing authenticated export links",
+    "Mobile horizontal-overflow check",
+    "Project creation and actual binary chunk upload",
+    "Confirmed server-side cancellation of a partial upload",
+    "Cancellation failure preserves local resume information",
+    "Different local file cannot replace an unfinished upload handle"
+  ],
+  "screenshots": [
+    {
+      "path": "edit-room.png",
+      "sha256": "03a309de4527cdead8ccd1c0615905858bd5e47e4faccd26b8e1c0f0178dc0ab",
+      "reviewed": "visually reviewed; only labelled synthetic media and test account UI; no credentials or session material"
+    },
+    {
+      "path": "version-conflict.png",
+      "sha256": "30ddb260b08cca155dc1b1ff5e12790d319d1679269001fab906ef24d135c00b",
+      "reviewed": "visually reviewed; only labelled synthetic media and test account UI; no credentials or session material"
+    }
+  ],
+  "limitations": [
+    "The recording and account are synthetic integration fixtures, not real user research.",
+    "The edit-room screenshot uses a previously processed recording whose original OCR stage was unavailable; its warning remains visible. This browser run does not certify all model modalities.",
+    "The browser run checks available export links; separate API/media verification is responsible for output bytes and timing.",
+    "All collaboration roles, every upload interruption and all export codecs were not browser-tested."
+  ],
+  "recording_used": {
+    "type": "previously indexed scripted technical fixture",
+    "stored_stage_statuses": {
+      "asr": "complete",
+      "ocr": "unavailable",
+      "visual": "complete"
+    },
+    "status_source": "read-only check of the selected recording manifest after the browser run",
+    "scope": "status metadata only; no model-quality claim; the browser test exercised speech-only search"
+  }
+}

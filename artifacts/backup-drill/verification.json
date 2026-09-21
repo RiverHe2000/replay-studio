@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "profile": "sqlite/local",
+  "finished_at": "2026-09-19T07:21:46.851159+00:00",
+  "backup": {
+    "files": 22,
+    "bytes": 2860814,
+    "database": "sqlite"
+  },
+  "restore": {
+    "restored_files": 22,
+    "database": "sqlite"
+  },
+  "verified_objects": 21,
+  "table_counts": {
+    "assets": 1,
+    "comments": 0,
+    "exports": 0,
+    "jobs": 5,
+    "members": 1,
+    "projects": 1,
+    "resources": 2,
+    "runs": 1,
+    "schema_version": 1,
+    "sessions": 1,
+    "timelines": 0,
+    "uploads": 1,
+    "users": 1,
+    "workers": 2
+  },
+  "postgres_s3_verified": false
+}

@@ -1,0 +1,23 @@
+{
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "prefix": "D:\\Project\\replay-studio\\.tools\\verify-venv",
+  "base_prefix": "C:\\Users\\Administrator.DESKTOP-550AABJ\\AppData\\Local\\Programs\\Python\\Python312",
+  "include_system_site_packages": false,
+  "locks": {
+    "requirements-dev.lock": "bb9b96ed14085d7ae738eecfc161c2d2efcbbf6bca84f60adc687dae84250cac",
+    "requirements-windows-cpu.lock": "c5b7573fd542fcafa12ef68250922e96922dff28d308f2ecce8eef996bc9f68b"
+  },
+  "packages": {
+    "fastapi": "0.141.1",
+    "sqlalchemy": "2.0.54",
+    "numpy": "2.2.6",
+    "faster-whisper": "1.2.1",
+    "rapidocr": "3.9.2",
+    "onnxruntime": "1.30.0",
+    "torch": "2.11.0+cpu",
+    "torchvision": "0.26.0+cpu",
+    "transformers": "5.16.1"
+  },
+  "actual_e2e_status": "pass",
+  "scope": "Fresh isolated environment, installed hashed locks, real CPU ASR/OCR/CLIP and FFmpeg HTTP workflow. Cached public model weights reused; no model results fabricated."
+}

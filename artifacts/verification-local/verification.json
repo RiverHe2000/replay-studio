@@ -1,0 +1,594 @@
+{
+  "started_at": "2026-09-19T07:10:48.534268+00:00",
+  "fixture": "D:\\Project\\replay-studio\\data\\fixtures\\debugging\\scripted_debugging.mp4",
+  "evidence_type": "scripted fixture technical integration; not a user study",
+  "checks": {
+    "upload_replay_and_conflict": "pass",
+    "real_evidence_search": "pass",
+    "timeline_version_conflict": "pass",
+    "real_ffmpeg_render": "pass"
+  },
+  "capabilities": {
+    "ffmpeg": true,
+    "asr": true,
+    "ocr": false,
+    "visual": true,
+    "vlm": false,
+    "note": "Dependency/configuration availability; each completed run records actual model execution.",
+    "storage": "local",
+    "database": "sqlite",
+    "limits": {
+      "max_upload_bytes": 536870912,
+      "max_duration": 1800,
+      "max_export_seconds": 600
+    }
+  },
+  "project_id": "baeaa28266044a0298d1a923e33179ac",
+  "asset_id": "206a84cdfc99452bb5f26cab71e1567b",
+  "run_id": "7ab8f769adba477d960b90df781666ff",
+  "analysis_wall_seconds": 245.859,
+  "jobs": [
+    {
+      "id": "ab578f40dffa4c0189f57ba682c673d4",
+      "asset_id": "206a84cdfc99452bb5f26cab71e1567b",
+      "run_id": "7ab8f769adba477d960b90df781666ff",
+      "kind": "prepare",
+      "queue": "cpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T07:10:49.079889+00:00",
+      "updated_at": "2026-09-19T07:10:50.669198+00:00"
+    },
+    {
+      "id": "ab014b1cb077466bb49f90d6e96e1cae",
+      "asset_id": "206a84cdfc99452bb5f26cab71e1567b",
+      "run_id": "7ab8f769adba477d960b90df781666ff",
+      "kind": "asr",
+      "queue": "gpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T07:10:49.079889+00:00",
+      "updated_at": "2026-09-19T07:10:57.461328+00:00"
+    },
+    {
+      "id": "46af6e2ce4694186bac8cd25a0bb8f11",
+      "asset_id": "206a84cdfc99452bb5f26cab71e1567b",
+      "run_id": "7ab8f769adba477d960b90df781666ff",
+      "kind": "ocr",
+      "queue": "cpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T07:10:49.079889+00:00",
+      "updated_at": "2026-09-19T07:10:50.704362+00:00"
+    },
+    {
+      "id": "b90c284ab27f4b00b5bff91ad370817c",
+      "asset_id": "206a84cdfc99452bb5f26cab71e1567b",
+      "run_id": "7ab8f769adba477d960b90df781666ff",
+      "kind": "visual",
+      "queue": "gpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T07:10:49.079889+00:00",
+      "updated_at": "2026-09-19T07:14:54.693950+00:00"
+    },
+    {
+      "id": "7801b63acb3041baac27a3e997fdc516",
+      "asset_id": "206a84cdfc99452bb5f26cab71e1567b",
+      "run_id": "7ab8f769adba477d960b90df781666ff",
+      "kind": "index",
+      "queue": "cpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T07:10:49.081393+00:00",
+      "updated_at": "2026-09-19T07:14:54.727671+00:00"
+    }
+  ],
+  "transcript": {
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.96,
+        "text": "The application fails to start."
+      },
+      {
+        "start": 2.96,
+        "end": 6.7,
+        "text": "The error says database URL is missing."
+      },
+      {
+        "start": 6.7,
+        "end": 10.06,
+        "text": "We need to inspect the environment file."
+      },
+      {
+        "start": 10.06,
+        "end": 12.7,
+        "text": "Open the environment file."
+      },
+      {
+        "start": 12.7,
+        "end": 18.14,
+        "text": "Add the database URL for local postgres and save the file."
+      },
+      {
+        "start": 18.14,
+        "end": 20.1,
+        "text": "Now restart the application."
+      },
+      {
+        "start": 20.1,
+        "end": 24.42,
+        "text": "The database is connected and the application starts."
+      },
+      {
+        "start": 24.42,
+        "end": 30.016,
+        "text": "The verification reports 12 tests passed and the health end point returns to..."
+      }
+    ],
+    "status": "complete",
+    "backend": "faster-whisper:base",
+    "warning": null
+  },
+  "search": {
+    "speech": {
+      "hits": [
+        {
+          "id": "83d659b8fce5bf4cd727",
+          "start": 24.42,
+          "end": 30.0,
+          "score": 0.01639344,
+          "text": "The verification reports 12 tests passed and the health end point returns to...",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The verification reports 12 tests passed and the health end point returns to...",
+              "time": 24.42,
+              "end": 30.0,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "d5d10d8f0a142e457eee",
+          "start": 10.06,
+          "end": 12.7,
+          "score": 0.01612903,
+          "text": "Open the environment file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Open the environment file.",
+              "time": 10.06,
+              "end": 12.7,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "ad96c1f1d0efe60c8516",
+          "start": 6.7,
+          "end": 10.06,
+          "score": 0.01587302,
+          "text": "We need to inspect the environment file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "We need to inspect the environment file.",
+              "time": 6.7,
+              "end": 10.06,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "13b0f72751c8c088668d",
+          "start": 2.96,
+          "end": 6.7,
+          "score": 0.015625,
+          "text": "The error says database URL is missing.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The error says database URL is missing.",
+              "time": 2.96,
+              "end": 6.7,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "578d5cb3f3935a9f8182",
+          "start": 12.7,
+          "end": 18.14,
+          "score": 0.01538462,
+          "text": "Add the database URL for local postgres and save the file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Add the database URL for local postgres and save the file.",
+              "time": 12.7,
+              "end": 18.14,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ],
+      "mode": "speech",
+      "warnings": [
+        "rapidocr:onnxruntime could not run (ModuleNotFoundError). Check installed models and worker logs; no output was invented.",
+        "CLIP similarity is a ranking signal, not verified semantic evidence."
+      ]
+    },
+    "speech_ocr": {
+      "hits": [
+        {
+          "id": "83d659b8fce5bf4cd727",
+          "start": 24.42,
+          "end": 30.0,
+          "score": 0.01639344,
+          "text": "The verification reports 12 tests passed and the health end point returns to...",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The verification reports 12 tests passed and the health end point returns to...",
+              "time": 24.42,
+              "end": 30.0,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "d5d10d8f0a142e457eee",
+          "start": 10.06,
+          "end": 12.7,
+          "score": 0.01612903,
+          "text": "Open the environment file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Open the environment file.",
+              "time": 10.06,
+              "end": 12.7,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "ad96c1f1d0efe60c8516",
+          "start": 6.7,
+          "end": 10.06,
+          "score": 0.01587302,
+          "text": "We need to inspect the environment file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "We need to inspect the environment file.",
+              "time": 6.7,
+              "end": 10.06,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "13b0f72751c8c088668d",
+          "start": 2.96,
+          "end": 6.7,
+          "score": 0.015625,
+          "text": "The error says database URL is missing.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The error says database URL is missing.",
+              "time": 2.96,
+              "end": 6.7,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "578d5cb3f3935a9f8182",
+          "start": 12.7,
+          "end": 18.14,
+          "score": 0.01538462,
+          "text": "Add the database URL for local postgres and save the file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Add the database URL for local postgres and save the file.",
+              "time": 12.7,
+              "end": 18.14,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ],
+      "mode": "speech_ocr",
+      "warnings": [
+        "rapidocr:onnxruntime could not run (ModuleNotFoundError). Check installed models and worker logs; no output was invented.",
+        "CLIP similarity is a ranking signal, not verified semantic evidence."
+      ]
+    },
+    "fusion": {
+      "hits": [
+        {
+          "id": "83d659b8fce5bf4cd727",
+          "start": 24.42,
+          "end": 30.0,
+          "score": 0.01639344,
+          "text": "The verification reports 12 tests passed and the health end point returns to...",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The verification reports 12 tests passed and the health end point returns to...",
+              "time": 24.42,
+              "end": 30.0,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion",
+          "warnings": [
+            "Visual search unavailable (ModuleNotFoundError); ranking uses available text evidence."
+          ]
+        },
+        {
+          "id": "d5d10d8f0a142e457eee",
+          "start": 10.06,
+          "end": 12.7,
+          "score": 0.01612903,
+          "text": "Open the environment file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Open the environment file.",
+              "time": 10.06,
+              "end": 12.7,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion",
+          "warnings": [
+            "Visual search unavailable (ModuleNotFoundError); ranking uses available text evidence."
+          ]
+        },
+        {
+          "id": "ad96c1f1d0efe60c8516",
+          "start": 6.7,
+          "end": 10.06,
+          "score": 0.01587302,
+          "text": "We need to inspect the environment file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "We need to inspect the environment file.",
+              "time": 6.7,
+              "end": 10.06,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion",
+          "warnings": [
+            "Visual search unavailable (ModuleNotFoundError); ranking uses available text evidence."
+          ]
+        },
+        {
+          "id": "13b0f72751c8c088668d",
+          "start": 2.96,
+          "end": 6.7,
+          "score": 0.015625,
+          "text": "The error says database URL is missing.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The error says database URL is missing.",
+              "time": 2.96,
+              "end": 6.7,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion",
+          "warnings": [
+            "Visual search unavailable (ModuleNotFoundError); ranking uses available text evidence."
+          ]
+        },
+        {
+          "id": "578d5cb3f3935a9f8182",
+          "start": 12.7,
+          "end": 18.14,
+          "score": 0.01538462,
+          "text": "Add the database URL for local postgres and save the file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Add the database URL for local postgres and save the file.",
+              "time": 12.7,
+              "end": 18.14,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion",
+          "warnings": [
+            "Visual search unavailable (ModuleNotFoundError); ranking uses available text evidence."
+          ]
+        }
+      ],
+      "mode": "fusion",
+      "warnings": [
+        "rapidocr:onnxruntime could not run (ModuleNotFoundError). Check installed models and worker logs; no output was invented.",
+        "CLIP similarity is a ranking signal, not verified semantic evidence."
+      ]
+    }
+  },
+  "plan": {
+    "clips": [
+      {
+        "id": "3ecaa91e24893040b0fc",
+        "start": 1.46,
+        "end": 19.64,
+        "title": "The error says database URL is missing.",
+        "subtitle": "The error says database URL is missing. We need to inspect the environment file. Open the environment file. Add the database URL for local postgres and save the file.",
+        "evidence_ids": [
+          "13b0f72751c8c088668d",
+          "ad96c1f1d0efe60c8516",
+          "d5d10d8f0a142e457eee",
+          "578d5cb3f3935a9f8182"
+        ]
+      },
+      {
+        "id": "0c44571d14bf481cf7fd",
+        "start": 22.92,
+        "end": 24.740000000000002,
+        "title": "The verification reports 12 tests passed and the health end point returns to...",
+        "subtitle": "The verification reports 12 tests passed and the health end point returns to...",
+        "evidence_ids": [
+          "83d659b8fce5bf4cd727"
+        ]
+      }
+    ],
+    "warnings": [
+      "Deterministic baseline: selects evidence chronologically; it does not verify causality or guarantee all natural-language instructions are satisfied.",
+      "A selected interval was shortened to the target duration; review its context.",
+      "Some candidates are uncertain. Review the source frames and speech before exporting.",
+      "rapidocr:onnxruntime could not run (ModuleNotFoundError). Check installed models and worker logs; no output was invented.",
+      "CLIP similarity is a ranking signal, not verified semantic evidence."
+    ],
+    "strategy": "deterministic_evidence_timeline_v1",
+    "run_id": "7ab8f769adba477d960b90df781666ff",
+    "asset_id": "206a84cdfc99452bb5f26cab71e1567b"
+  },
+  "export_id": "2d4a9609e73b4becabb037e1cf5528d8",
+  "render": {
+    "expected_duration": 20.0,
+    "actual_duration": 20.034375,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "20.034375"
+      }
+    }
+  },
+  "stages": {
+    "asr": {
+      "backend": "faster-whisper:base",
+      "status": "complete",
+      "warning": null
+    },
+    "ocr": {
+      "backend": "rapidocr:onnxruntime",
+      "status": "unavailable",
+      "warning": "rapidocr:onnxruntime could not run (ModuleNotFoundError). Check installed models and worker logs; no output was invented."
+    },
+    "visual": {
+      "model": "openai/clip-vit-base-patch32",
+      "status": "complete",
+      "warning": "CLIP similarity is a ranking signal, not verified semantic evidence."
+    }
+  },
+  "status": "fail",
+  "error": "AssertionError: required modalities did not run: ocr",
+  "finished_at": "2026-09-19T07:15:01.989275+00:00"
+}

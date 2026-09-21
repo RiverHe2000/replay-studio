@@ -1,0 +1,57 @@
+{
+  "mode": "apply",
+  "generated_at": "2026-09-19T08:36:22.718552+00:00",
+  "data_dir": "D:\\Project\\replay-studio\\data\\pg-s3-verification\\independent-readback",
+  "audit_records_deleted": false,
+  "blockers": {
+    "active_jobs": [],
+    "recent_workers": [],
+    "active_resource_leases": []
+  },
+  "asset_ids": [
+    "5ba408a78bd44956bb6033d70ce0b0d2"
+  ],
+  "object_prefixes": [
+    "assets/5ba408a78bd44956bb6033d70ce0b0d2",
+    "runs/3920ab22b977463fa05725dbfd8ca237"
+  ],
+  "local_targets": [
+    {
+      "path": "materialized/3920ab22b977463fa05725dbfd8ca237",
+      "exists": false
+    },
+    {
+      "path": "object_cache/assets/5ba408a78bd44956bb6033d70ce0b0d2",
+      "exists": true
+    },
+    {
+      "path": "object_cache/runs/3920ab22b977463fa05725dbfd8ca237",
+      "exists": false
+    },
+    {
+      "path": "uploads/5ba408a78bd44956bb6033d70ce0b0d2.part",
+      "exists": false
+    },
+    {
+      "path": "work/00b954f61eb14026b58328abf15b74c6",
+      "exists": false
+    },
+    {
+      "path": "work/1acf8b3cb53a413ba6f3874f8aafc2a9",
+      "exists": false
+    },
+    {
+      "path": "work/303f4eee237c40da99d819cd40b8b257",
+      "exists": false
+    },
+    {
+      "path": "work/46f3488149234fb88e92f99f725f2649",
+      "exists": false
+    },
+    {
+      "path": "work/8575fc8a67bf4e289d92610c266a5193",
+      "exists": false
+    }
+  ],
+  "status": "collected"
+}

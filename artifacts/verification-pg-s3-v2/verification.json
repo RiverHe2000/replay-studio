@@ -1,0 +1,1644 @@
+{
+  "started_at": "2026-09-19T08:37:10.962394+00:00",
+  "fixture": "D:\\Project\\replay-studio\\data\\fixtures\\debugging\\scripted_debugging.mp4",
+  "evidence_type": "scripted fixture technical integration; not a user study",
+  "checks": {
+    "upload_replay_and_conflict": "pass",
+    "real_evidence_search": "pass",
+    "timeline_version_conflict": "pass",
+    "real_ffmpeg_render": "pass"
+  },
+  "capabilities": {
+    "ffmpeg": true,
+    "asr": true,
+    "ocr": true,
+    "visual": true,
+    "vlm": false,
+    "note": "Dependency/configuration availability; each completed run records actual model execution.",
+    "storage": "s3",
+    "database": "postgresql",
+    "limits": {
+      "max_upload_bytes": 536870912,
+      "max_duration": 1800,
+      "max_export_seconds": 600
+    }
+  },
+  "project_id": "dac981c48a73439da5f5b5773e879c6a",
+  "asset_id": "344001db0ac34594b3d465e03e3c51d4",
+  "run_id": "0f0bbfe436d54733b270b3820d7fe12a",
+  "analysis_wall_seconds": 42.375,
+  "jobs": [
+    {
+      "id": "91f2a47c15c3432eb33da2e58cc1373b",
+      "asset_id": "344001db0ac34594b3d465e03e3c51d4",
+      "run_id": "0f0bbfe436d54733b270b3820d7fe12a",
+      "kind": "prepare",
+      "queue": "cpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T08:37:11.862049+00:00",
+      "updated_at": "2026-09-19T08:37:13.753834+00:00"
+    },
+    {
+      "id": "5f382bac6d0040fba1ad17891cef4417",
+      "asset_id": "344001db0ac34594b3d465e03e3c51d4",
+      "run_id": "0f0bbfe436d54733b270b3820d7fe12a",
+      "kind": "asr",
+      "queue": "gpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T08:37:11.867139+00:00",
+      "updated_at": "2026-09-19T08:37:17.592863+00:00"
+    },
+    {
+      "id": "7ad81b86222849309426dd00777e2fbc",
+      "asset_id": "344001db0ac34594b3d465e03e3c51d4",
+      "run_id": "0f0bbfe436d54733b270b3820d7fe12a",
+      "kind": "ocr",
+      "queue": "cpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T08:37:11.868200+00:00",
+      "updated_at": "2026-09-19T08:37:38.179632+00:00"
+    },
+    {
+      "id": "1d7b6e72001c4618a114737b9b9a09ba",
+      "asset_id": "344001db0ac34594b3d465e03e3c51d4",
+      "run_id": "0f0bbfe436d54733b270b3820d7fe12a",
+      "kind": "visual",
+      "queue": "gpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T08:37:11.870204+00:00",
+      "updated_at": "2026-09-19T08:37:53.783024+00:00"
+    },
+    {
+      "id": "dc4fc2f100ca46299f0a5d06a9302e22",
+      "asset_id": "344001db0ac34594b3d465e03e3c51d4",
+      "run_id": "0f0bbfe436d54733b270b3820d7fe12a",
+      "kind": "index",
+      "queue": "cpu",
+      "status": "complete",
+      "attempts": 1,
+      "error": null,
+      "created_at": "2026-09-19T08:37:11.871205+00:00",
+      "updated_at": "2026-09-19T08:37:54.183592+00:00"
+    }
+  ],
+  "transcript": {
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.92,
+        "text": "The application fails to start."
+      },
+      {
+        "start": 2.92,
+        "end": 6.68,
+        "text": "The error says database URL is missing."
+      },
+      {
+        "start": 6.68,
+        "end": 10.0,
+        "text": "We need to inspect the environment file."
+      },
+      {
+        "start": 10.0,
+        "end": 12.68,
+        "text": "Open the environment file."
+      },
+      {
+        "start": 12.68,
+        "end": 18.08,
+        "text": "Add the database URL for local postgres and save the file."
+      },
+      {
+        "start": 18.08,
+        "end": 20.08,
+        "text": "Now restart the application."
+      },
+      {
+        "start": 20.08,
+        "end": 24.36,
+        "text": "The database is connected and the application starts."
+      },
+      {
+        "start": 24.36,
+        "end": 30.016,
+        "text": "The verification reports 12 tests passed and the health end point returns to"
+      }
+    ],
+    "status": "complete",
+    "backend": "faster-whisper:base",
+    "warning": null
+  },
+  "search": {
+    "speech": {
+      "hits": [
+        {
+          "id": "8a18fc809c20c737a2d9",
+          "start": 24.36,
+          "end": 30.0,
+          "score": 0.01639344,
+          "text": "The verification reports 12 tests passed and the health end point returns to",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The verification reports 12 tests passed and the health end point returns to",
+              "time": 24.36,
+              "end": 30.0,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "6d883536730728869853",
+          "start": 10.0,
+          "end": 12.68,
+          "score": 0.01612903,
+          "text": "Open the environment file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Open the environment file.",
+              "time": 10.0,
+              "end": 12.68,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "350d91d59cd5eff30962",
+          "start": 6.68,
+          "end": 10.0,
+          "score": 0.01587302,
+          "text": "We need to inspect the environment file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "We need to inspect the environment file.",
+              "time": 6.68,
+              "end": 10.0,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "f591fe82b6256d84d368",
+          "start": 2.92,
+          "end": 6.68,
+          "score": 0.015625,
+          "text": "The error says database URL is missing.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The error says database URL is missing.",
+              "time": 2.92,
+              "end": 6.68,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "18d6257ef35d4da8e9eb",
+          "start": 12.68,
+          "end": 18.08,
+          "score": 0.01538462,
+          "text": "Add the database URL for local postgres and save the file.",
+          "modalities": [
+            "speech"
+          ],
+          "frame": null,
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Add the database URL for local postgres and save the file.",
+              "time": 12.68,
+              "end": 18.08,
+              "source": "asr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ],
+      "mode": "speech",
+      "warnings": [
+        "OCR observes sampled frames only; it does not prove continuous visibility.",
+        "CLIP similarity is a ranking signal, not verified semantic evidence."
+      ]
+    },
+    "speech_ocr": {
+      "hits": [
+        {
+          "id": "f591fe82b6256d84d368",
+          "start": 1.5,
+          "end": 6.68,
+          "score": 0.03175403,
+          "text": "The error says database URL is missing.",
+          "modalities": [
+            "screen",
+            "speech"
+          ],
+          "frame": "frames/frame_000002.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The error says database URL is missing.",
+              "time": 2.92,
+              "end": 6.68,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE_URL is missing\nStartup aborted. No database connection.\nNext: inspect the environment file.\nSynthetic demonstration | scene 1/3 | No real production incident",
+              "time": 2.0,
+              "end": 2.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "350d91d59cd5eff30962",
+          "start": 5.5,
+          "end": 10.0,
+          "score": 0.03149802,
+          "text": "We need to inspect the environment file.",
+          "modalities": [
+            "screen",
+            "speech"
+          ],
+          "frame": "frames/frame_000004.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "We need to inspect the environment file.",
+              "time": 6.68,
+              "end": 10.0,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE_URL is missing\nStartup aborted. No database connection.\nNext: inspect the environment file.\nSynthetic demonstration | scene 1/3 | No real production incident",
+              "time": 6.0,
+              "end": 6.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "8a18fc809c20c737a2d9",
+          "start": 23.5,
+          "end": 30.0,
+          "score": 0.03109932,
+          "text": "The verification reports 12 tests passed and the health end point returns to",
+          "modalities": [
+            "screen",
+            "speech"
+          ],
+          "frame": "frames/frame_000013.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The verification reports 12 tests passed and the health end point returns to",
+              "time": 24.36,
+              "end": 30.0,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n03 Verify the fix\n$ python -m replay_studio.cli serve\nDatabase connected\nApplication startup complete\n$ pytest\n12 passed in 0.84s\nGET /health -> 200 OK\nSynthetic demonstration | scene 3/3 | No real production incident",
+              "time": 24.0,
+              "end": 24.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "6d883536730728869853",
+          "start": 9.5,
+          "end": 12.68,
+          "score": 0.03021354,
+          "text": "Open the environment file.",
+          "modalities": [
+            "screen",
+            "speech"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Open the environment file.",
+              "time": 10.0,
+              "end": 12.68,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+              "time": 10.0,
+              "end": 10.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "18d6257ef35d4da8e9eb",
+          "start": 11.5,
+          "end": 18.08,
+          "score": 0.0292735,
+          "text": "Add the database URL for local postgres and save the file.",
+          "modalities": [
+            "screen",
+            "speech"
+          ],
+          "frame": "frames/frame_000007.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Add the database URL for local postgres and save the file.",
+              "time": 12.68,
+              "end": 18.08,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+              "time": 12.0,
+              "end": 12.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "5e221e9fc8494c18ca68",
+          "start": 0,
+          "end": 2.0,
+          "score": 0.01639344,
+          "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE_URL is missing\nStartup aborted. No database connection.\nNext: inspect the environment file.\nSynthetic demonstration | scene 1/3 | No real production incident",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000001.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE_URL is missing\nStartup aborted. No database connection.\nNext: inspect the environment file.\nSynthetic demonstration | scene 1/3 | No real production incident",
+              "time": 0.0,
+              "end": 0.03333333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "fc9db50c8c624ec349d9",
+          "start": 19.5,
+          "end": 22.0,
+          "score": 0.01515152,
+          "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n03 Verify the fix\n$ python -m replay_studio.cli serve\nDatabase connected\nApplication startup complete\n$ pytest\n12 passed in 0.84s\nGET /health -> 200 OK\nSynthetic demonstration | scene 3/3 | No real production incident",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n03 Verify the fix\n$ python -m replay_studio.cli serve\nDatabase connected\nApplication startup complete\n$ pytest\n12 passed in 0.84s\nGET /health -> 200 OK\nSynthetic demonstration | scene 3/3 | No real production incident",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "11c63e5e91d4442decb0",
+          "start": 27.5,
+          "end": 30.0,
+          "score": 0.01428571,
+          "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n03 Verify the fix\n$ python -m replay_studio.cli serve\nDatabase connected\nApplication startup complete\n$ pytest\n12 passed in 0.84s\nGET /health -> 200 OK\nSynthetic demonstration | scene 3/3 | No real production incident",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000015.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n03 Verify the fix\n$ python -m replay_studio.cli serve\nDatabase connected\nApplication startup complete\n$ pytest\n12 passed in 0.84s\nGET /health -> 200 OK\nSynthetic demonstration | scene 3/3 | No real production incident",
+              "time": 28.0,
+              "end": 28.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ],
+      "mode": "speech_ocr",
+      "warnings": [
+        "OCR observes sampled frames only; it does not prove continuous visibility.",
+        "CLIP similarity is a ranking signal, not verified semantic evidence."
+      ]
+    },
+    "fusion": {
+      "hits": [
+        {
+          "id": "f591fe82b6256d84d368",
+          "start": 1.0,
+          "end": 6.68,
+          "score": 0.04143145,
+          "text": "The error says database URL is missing.",
+          "modalities": [
+            "screen",
+            "speech",
+            "visual"
+          ],
+          "frame": "frames/frame_000002.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The error says database URL is missing.",
+              "time": 2.92,
+              "end": 6.68,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE_URL is missing\nStartup aborted. No database connection.\nNext: inspect the environment file.\nSynthetic demonstration | scene 1/3 | No real production incident",
+              "time": 2.0,
+              "end": 2.033333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 2.0,
+              "source": "clip",
+              "similarity": 0.27981141209602356
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "350d91d59cd5eff30962",
+          "start": 5.0,
+          "end": 10.0,
+          "score": 0.04087302,
+          "text": "We need to inspect the environment file.",
+          "modalities": [
+            "screen",
+            "speech",
+            "visual"
+          ],
+          "frame": "frames/frame_000004.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "We need to inspect the environment file.",
+              "time": 6.68,
+              "end": 10.0,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE_URL is missing\nStartup aborted. No database connection.\nNext: inspect the environment file.\nSynthetic demonstration | scene 1/3 | No real production incident",
+              "time": 6.0,
+              "end": 6.033333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 6.0,
+              "source": "clip",
+              "similarity": 0.27981141209602356
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "6d883536730728869853",
+          "start": 9.0,
+          "end": 12.68,
+          "score": 0.03916876,
+          "text": "Open the environment file.",
+          "modalities": [
+            "screen",
+            "speech",
+            "visual"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Open the environment file.",
+              "time": 10.0,
+              "end": 12.68,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+              "time": 10.0,
+              "end": 10.033333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 10.0,
+              "source": "clip",
+              "similarity": 0.2772887945175171
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "18d6257ef35d4da8e9eb",
+          "start": 11.0,
+          "end": 18.08,
+          "score": 0.03809703,
+          "text": "Add the database URL for local postgres and save the file.",
+          "modalities": [
+            "screen",
+            "speech",
+            "visual"
+          ],
+          "frame": "frames/frame_000007.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "Add the database URL for local postgres and save the file.",
+              "time": 12.68,
+              "end": 18.08,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+              "time": 12.0,
+              "end": 12.033333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 12.0,
+              "source": "clip",
+              "similarity": 0.27680742740631104
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "8a18fc809c20c737a2d9",
+          "start": 23.5,
+          "end": 30.0,
+          "score": 0.03109932,
+          "text": "The verification reports 12 tests passed and the health end point returns to",
+          "modalities": [
+            "screen",
+            "speech"
+          ],
+          "frame": "frames/frame_000013.jpg",
+          "evidence": [
+            {
+              "modality": "speech",
+              "text": "The verification reports 12 tests passed and the health end point returns to",
+              "time": 24.36,
+              "end": 30.0,
+              "source": "asr"
+            },
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n03 Verify the fix\n$ python -m replay_studio.cli serve\nDatabase connected\nApplication startup complete\n$ pytest\n12 passed in 0.84s\nGET /health -> 200 OK\nSynthetic demonstration | scene 3/3 | No real production incident",
+              "time": 24.0,
+              "end": 24.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "5e221e9fc8494c18ca68",
+          "start": 0,
+          "end": 2.0,
+          "score": 0.02622951,
+          "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE_URL is missing\nStartup aborted. No database connection.\nNext: inspect the environment file.\nSynthetic demonstration | scene 1/3 | No real production incident",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000001.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE_URL is missing\nStartup aborted. No database connection.\nNext: inspect the environment file.\nSynthetic demonstration | scene 1/3 | No real production incident",
+              "time": 0.0,
+              "end": 0.03333333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 0.0,
+              "source": "clip",
+              "similarity": 0.2800285220146179
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "1ec9dda0029d3c5b5f48",
+          "start": 17.0,
+          "end": 20.0,
+          "score": 0.02242424,
+          "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000010.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n02 Correct the environment configuration\n.env\nDATABASE_URL=postgresq1://localhost/replay\nPORT=8080\nSaved .env\nRestart the application to load the change.\nSynthetic demonstration | scene 2/3 | No real production incident",
+              "time": 18.0,
+              "end": 18.033333333333335,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 18.0,
+              "source": "clip",
+              "similarity": 0.27732858061790466
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "fc9db50c8c624ec349d9",
+          "start": 19.5,
+          "end": 22.0,
+          "score": 0.01515152,
+          "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n03 Verify the fix\n$ python -m replay_studio.cli serve\nDatabase connected\nApplication startup complete\n$ pytest\n12 passed in 0.84s\nGET /health -> 200 OK\nSynthetic demonstration | scene 3/3 | No real production incident",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n03 Verify the fix\n$ python -m replay_studio.cli serve\nDatabase connected\nApplication startup complete\n$ pytest\n12 passed in 0.84s\nGET /health -> 200 OK\nSynthetic demonstration | scene 3/3 | No real production incident",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ],
+      "mode": "fusion",
+      "warnings": [
+        "OCR observes sampled frames only; it does not prove continuous visibility.",
+        "CLIP similarity is a ranking signal, not verified semantic evidence."
+      ]
+    }
+  },
+  "plan": {
+    "clips": [
+      {
+        "id": "8dcc09a4a99cf68042e5",
+        "start": 0.0,
+        "end": 19.58,
+        "title": "REPLAY STUDIO\nSCRIPTED TECHNICAL FIXTURE\n01 Reproduce the startup error\n$ python -m replay_studio.cli serve\nLoading application configuration...\nERROR: DATABASE",
+        "subtitle": "The error says database URL is missing. We need to inspect the environment file. Open the environment file. Add the database URL for local postgres and save the file.",
+        "evidence_ids": [
+          "5e221e9fc8494c18ca68",
+          "f591fe82b6256d84d368",
+          "350d91d59cd5eff30962",
+          "6d883536730728869853",
+          "18d6257ef35d4da8e9eb"
+        ]
+      }
+    ],
+    "warnings": [
+      "Deterministic baseline: selects evidence chronologically; it does not verify causality or guarantee all natural-language instructions are satisfied.",
+      "Some evidence did not fit the target duration and was omitted; the edit may cover only part of the request.",
+      "Some candidates are uncertain. Review the source frames and speech before exporting.",
+      "OCR observes sampled frames only; it does not prove continuous visibility.",
+      "CLIP similarity is a ranking signal, not verified semantic evidence."
+    ],
+    "strategy": "deterministic_evidence_timeline_v1",
+    "planner": {
+      "status": "disabled",
+      "model": null
+    },
+    "run_id": "0f0bbfe436d54733b270b3820d7fe12a",
+    "asset_id": "344001db0ac34594b3d465e03e3c51d4"
+  },
+  "export_id": "4dd24a54d8244af8be03ef634618afba",
+  "render": {
+    "expected_duration": 19.58,
+    "actual_duration": 19.601333,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "19.601333"
+      }
+    }
+  },
+  "stages": {
+    "asr": {
+      "backend": "faster-whisper:base",
+      "status": "complete",
+      "warning": null
+    },
+    "ocr": {
+      "backend": "rapidocr:onnxruntime",
+      "status": "complete",
+      "warning": "OCR observes sampled frames only; it does not prove continuous visibility."
+    },
+    "visual": {
+      "model": "openai/clip-vit-base-patch32",
+      "status": "complete",
+      "warning": "CLIP similarity is a ranking signal, not verified semantic evidence."
+    }
+  },
+  "retrieval_evaluation": {
+    "schema_version": 1,
+    "dataset_sha256": "12839b1c514eb0cc17e31a2ba5233def7577ee606537aaed345b1a133bc7a61b",
+    "manifest_sha256": "b10eefa81872d2c16872fee0a3441fe09cc88e16d4b6913fd79eab96bc176051",
+    "iou_threshold": 0.3,
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.0",
+    "reports": {
+      "speech": {
+        "micro": {
+          "queries": 5,
+          "answerable_queries": 3,
+          "unanswerable_queries": 2,
+          "recall_at_k": {
+            "1": 0.6666666666666666,
+            "3": 1.0,
+            "5": 1.0
+          },
+          "mean_top1_iou": 0.4026666666666667,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        },
+        "video_macro_recall_at_k": {
+          "1": 0.6666666666666666,
+          "3": 1.0,
+          "5": 1.0
+        },
+        "by_group": {
+          "scripted_debugging": {
+            "queries": 5,
+            "answerable_queries": 3,
+            "unanswerable_queries": 2,
+            "recall_at_k": {
+              "1": 0.6666666666666666,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "mean_top1_iou": 0.4026666666666667,
+            "false_positive_rate": 0.0,
+            "correct_abstention_rate": 1.0
+          }
+        },
+        "by_type": {
+          "hard_negative": {
+            "queries": 2,
+            "answerable_queries": 0,
+            "unanswerable_queries": 2,
+            "recall_at_k": {
+              "1": null,
+              "3": null,
+              "5": null
+            },
+            "mean_top1_iou": null,
+            "false_positive_rate": 0.0,
+            "correct_abstention_rate": 1.0
+          },
+          "scripted_location": {
+            "queries": 3,
+            "answerable_queries": 3,
+            "unanswerable_queries": 0,
+            "recall_at_k": {
+              "1": 0.6666666666666666,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "mean_top1_iou": 0.4026666666666667,
+            "false_positive_rate": null,
+            "correct_abstention_rate": null
+          }
+        },
+        "cases": [
+          {
+            "id": "failure",
+            "query": "Where does the application fail because DATABASE_URL is missing?",
+            "group": "scripted_debugging",
+            "type": "scripted_location",
+            "answerable": true,
+            "hits": [
+              {
+                "id": "f591fe82b6256d84d368",
+                "start": 2.92,
+                "end": 6.68,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "de0635313320c6645084",
+                "start": 0,
+                "end": 2.92,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "0b86c0b87642bc2e97b3",
+                "start": 18.08,
+                "end": 20.08,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "2814bfb84d41e76c99c2",
+                "start": 20.08,
+                "end": 24.36,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              }
+            ],
+            "top1_iou": 0.376,
+            "recall_at_k": {
+              "1": 1,
+              "3": 1,
+              "5": 1
+            },
+            "elapsed_seconds": 0.0
+          },
+          {
+            "id": "fix",
+            "query": "Find the moment when the database connection setting is added to the environment file.",
+            "group": "scripted_debugging",
+            "type": "scripted_location",
+            "answerable": true,
+            "hits": [
+              {
+                "id": "6d883536730728869853",
+                "start": 10.0,
+                "end": 12.68,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "350d91d59cd5eff30962",
+                "start": 6.68,
+                "end": 10.0,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "18d6257ef35d4da8e9eb",
+                "start": 12.68,
+                "end": 18.08,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "2814bfb84d41e76c99c2",
+                "start": 20.08,
+                "end": 24.36,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "f591fe82b6256d84d368",
+                "start": 2.92,
+                "end": 6.68,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              }
+            ],
+            "top1_iou": 0.26799999999999996,
+            "recall_at_k": {
+              "1": 0,
+              "3": 1,
+              "5": 1
+            },
+            "elapsed_seconds": 0.0
+          },
+          {
+            "id": "success",
+            "query": "Show the successful startup, passing tests, and healthy endpoint after the fix.",
+            "group": "scripted_debugging",
+            "type": "scripted_location",
+            "answerable": true,
+            "hits": [
+              {
+                "id": "8a18fc809c20c737a2d9",
+                "start": 24.36,
+                "end": 30.0,
+                "modalities": [
+                  "speech"
+                ],
+                "uncertain": true
+              }
+            ],
+            "top1_iou": 0.5640000000000001,
+            "recall_at_k": {
+              "1": 1,
+              "3": 1,
+              "5": 1
+            },
+            "elapsed_seconds": 0.0
+          },
+          {
+            "id": "negative-0",
+            "query": "Where is the Kubernetes cluster upgraded?",
+            "group": "scripted_debugging",
+            "type": "hard_negative",
+            "answerable": false,
+            "hits": [],
+            "top1_iou": 0,
+            "recall_at_k": {
+              "1": 0,
+              "3": 0,
+              "5": 0
+            },
+            "elapsed_seconds": 0.0
+          },
+          {
+            "id": "negative-1",
+            "query": "Show the payment refund confirmation.",
+            "group": "scripted_debugging",
+            "type": "hard_negative",
+            "answerable": false,
+            "hits": [],
+            "top1_iou": 0,
+            "recall_at_k": {
+              "1": 0,
+              "3": 0,
+              "5": 0
+            },
+            "elapsed_seconds": 0.0
+          }
+        ]
+      },
+      "speech_ocr": {
+        "micro": {
+          "queries": 5,
+          "answerable_queries": 3,
+          "unanswerable_queries": 2,
+          "recall_at_k": {
+            "1": 0.3333333333333333,
+            "3": 0.6666666666666666,
+            "5": 1.0
+          },
+          "mean_top1_iou": 0.314,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        },
+        "video_macro_recall_at_k": {
+          "1": 0.3333333333333333,
+          "3": 0.6666666666666666,
+          "5": 1.0
+        },
+        "by_group": {
+          "scripted_debugging": {
+            "queries": 5,
+            "answerable_queries": 3,
+            "unanswerable_queries": 2,
+            "recall_at_k": {
+              "1": 0.3333333333333333,
+              "3": 0.6666666666666666,
+              "5": 1.0
+            },
+            "mean_top1_iou": 0.314,
+            "false_positive_rate": 0.0,
+            "correct_abstention_rate": 1.0
+          }
+        },
+        "by_type": {
+          "hard_negative": {
+            "queries": 2,
+            "answerable_queries": 0,
+            "unanswerable_queries": 2,
+            "recall_at_k": {
+              "1": null,
+              "3": null,
+              "5": null
+            },
+            "mean_top1_iou": null,
+            "false_positive_rate": 0.0,
+            "correct_abstention_rate": 1.0
+          },
+          "scripted_location": {
+            "queries": 3,
+            "answerable_queries": 3,
+            "unanswerable_queries": 0,
+            "recall_at_k": {
+              "1": 0.3333333333333333,
+              "3": 0.6666666666666666,
+              "5": 1.0
+            },
+            "mean_top1_iou": 0.314,
+            "false_positive_rate": null,
+            "correct_abstention_rate": null
+          }
+        },
+        "cases": [
+          {
+            "id": "failure",
+            "query": "Where does the application fail because DATABASE_URL is missing?",
+            "group": "scripted_debugging",
+            "type": "scripted_location",
+            "answerable": true,
+            "hits": [
+              {
+                "id": "de0635313320c6645084",
+                "start": 0,
+                "end": 2.92,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "f591fe82b6256d84d368",
+                "start": 1.5,
+                "end": 6.68,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "0b86c0b87642bc2e97b3",
+                "start": 17.5,
+                "end": 20.08,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "2814bfb84d41e76c99c2",
+                "start": 19.5,
+                "end": 24.36,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "9ac321d44e0a19796dc3",
+                "start": 3.5,
+                "end": 6.0,
+                "modalities": [
+                  "screen"
+                ],
+                "uncertain": true
+              }
+            ],
+            "top1_iou": 0.292,
+            "recall_at_k": {
+              "1": 0,
+              "3": 1,
+              "5": 1
+            },
+            "elapsed_seconds": 0.0
+          },
+          {
+            "id": "fix",
+            "query": "Find the moment when the database connection setting is added to the environment file.",
+            "group": "scripted_debugging",
+            "type": "scripted_location",
+            "answerable": true,
+            "hits": [
+              {
+                "id": "350d91d59cd5eff30962",
+                "start": 5.5,
+                "end": 10.0,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "6d883536730728869853",
+                "start": 9.5,
+                "end": 12.68,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "f591fe82b6256d84d368",
+                "start": 1.5,
+                "end": 6.68,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "18d6257ef35d4da8e9eb",
+                "start": 11.5,
+                "end": 18.08,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "2814bfb84d41e76c99c2",
+                "start": 19.5,
+                "end": 24.36,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              }
+            ],
+            "top1_iou": 0.0,
+            "recall_at_k": {
+              "1": 0,
+              "3": 0,
+              "5": 1
+            },
+            "elapsed_seconds": 0.0
+          },
+          {
+            "id": "success",
+            "query": "Show the successful startup, passing tests, and healthy endpoint after the fix.",
+            "group": "scripted_debugging",
+            "type": "scripted_location",
+            "answerable": true,
+            "hits": [
+              {
+                "id": "8a18fc809c20c737a2d9",
+                "start": 23.5,
+                "end": 30.0,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "fc9db50c8c624ec349d9",
+                "start": 19.5,
+                "end": 22.0,
+                "modalities": [
+                  "screen"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "11c63e5e91d4442decb0",
+                "start": 27.5,
+                "end": 30.0,
+                "modalities": [
+                  "screen"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "5e221e9fc8494c18ca68",
+                "start": 0,
+                "end": 2.0,
+                "modalities": [
+                  "screen"
+                ],
+                "uncertain": true
+              }
+            ],
+            "top1_iou": 0.65,
+            "recall_at_k": {
+              "1": 1,
+              "3": 1,
+              "5": 1
+            },
+            "elapsed_seconds": 0.015
+          },
+          {
+            "id": "negative-0",
+            "query": "Where is the Kubernetes cluster upgraded?",
+            "group": "scripted_debugging",
+            "type": "hard_negative",
+            "answerable": false,
+            "hits": [],
+            "top1_iou": 0,
+            "recall_at_k": {
+              "1": 0,
+              "3": 0,
+              "5": 0
+            },
+            "elapsed_seconds": 0.016
+          },
+          {
+            "id": "negative-1",
+            "query": "Show the payment refund confirmation.",
+            "group": "scripted_debugging",
+            "type": "hard_negative",
+            "answerable": false,
+            "hits": [],
+            "top1_iou": 0,
+            "recall_at_k": {
+              "1": 0,
+              "3": 0,
+              "5": 0
+            },
+            "elapsed_seconds": 0.0
+          }
+        ]
+      },
+      "fusion": {
+        "micro": {
+          "queries": 5,
+          "answerable_queries": 3,
+          "unanswerable_queries": 2,
+          "recall_at_k": {
+            "1": 0.3333333333333333,
+            "3": 1.0,
+            "5": 1.0
+          },
+          "mean_top1_iou": 0.3952121212121212,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        },
+        "video_macro_recall_at_k": {
+          "1": 0.3333333333333333,
+          "3": 1.0,
+          "5": 1.0
+        },
+        "by_group": {
+          "scripted_debugging": {
+            "queries": 5,
+            "answerable_queries": 3,
+            "unanswerable_queries": 2,
+            "recall_at_k": {
+              "1": 0.3333333333333333,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "mean_top1_iou": 0.3952121212121212,
+            "false_positive_rate": 0.0,
+            "correct_abstention_rate": 1.0
+          }
+        },
+        "by_type": {
+          "hard_negative": {
+            "queries": 2,
+            "answerable_queries": 0,
+            "unanswerable_queries": 2,
+            "recall_at_k": {
+              "1": null,
+              "3": null,
+              "5": null
+            },
+            "mean_top1_iou": null,
+            "false_positive_rate": 0.0,
+            "correct_abstention_rate": 1.0
+          },
+          "scripted_location": {
+            "queries": 3,
+            "answerable_queries": 3,
+            "unanswerable_queries": 0,
+            "recall_at_k": {
+              "1": 0.3333333333333333,
+              "3": 1.0,
+              "5": 1.0
+            },
+            "mean_top1_iou": 0.3952121212121212,
+            "false_positive_rate": null,
+            "correct_abstention_rate": null
+          }
+        },
+        "cases": [
+          {
+            "id": "failure",
+            "query": "Where does the application fail because DATABASE_URL is missing?",
+            "group": "scripted_debugging",
+            "type": "scripted_location",
+            "answerable": true,
+            "hits": [
+              {
+                "id": "de0635313320c6645084",
+                "start": 0,
+                "end": 2.92,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "f591fe82b6256d84d368",
+                "start": 1.5,
+                "end": 6.68,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "0b86c0b87642bc2e97b3",
+                "start": 17.5,
+                "end": 20.08,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "2814bfb84d41e76c99c2",
+                "start": 19.5,
+                "end": 24.36,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "9ac321d44e0a19796dc3",
+                "start": 3.5,
+                "end": 6.0,
+                "modalities": [
+                  "screen"
+                ],
+                "uncertain": true
+              }
+            ],
+            "top1_iou": 0.292,
+            "recall_at_k": {
+              "1": 0,
+              "3": 1,
+              "5": 1
+            },
+            "elapsed_seconds": 3.484
+          },
+          {
+            "id": "fix",
+            "query": "Find the moment when the database connection setting is added to the environment file.",
+            "group": "scripted_debugging",
+            "type": "scripted_location",
+            "answerable": true,
+            "hits": [
+              {
+                "id": "6d883536730728869853",
+                "start": 9.0,
+                "end": 12.68,
+                "modalities": [
+                  "screen",
+                  "speech",
+                  "visual"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "18d6257ef35d4da8e9eb",
+                "start": 11.0,
+                "end": 18.08,
+                "modalities": [
+                  "screen",
+                  "speech",
+                  "visual"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "f591fe82b6256d84d368",
+                "start": 1.0,
+                "end": 6.68,
+                "modalities": [
+                  "screen",
+                  "speech",
+                  "visual"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "350d91d59cd5eff30962",
+                "start": 5.0,
+                "end": 10.0,
+                "modalities": [
+                  "screen",
+                  "speech",
+                  "visual"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "2814bfb84d41e76c99c2",
+                "start": 19.5,
+                "end": 24.36,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              }
+            ],
+            "top1_iou": 0.24363636363636362,
+            "recall_at_k": {
+              "1": 0,
+              "3": 1,
+              "5": 1
+            },
+            "elapsed_seconds": 0.032
+          },
+          {
+            "id": "success",
+            "query": "Show the successful startup, passing tests, and healthy endpoint after the fix.",
+            "group": "scripted_debugging",
+            "type": "scripted_location",
+            "answerable": true,
+            "hits": [
+              {
+                "id": "8a18fc809c20c737a2d9",
+                "start": 23.5,
+                "end": 30.0,
+                "modalities": [
+                  "screen",
+                  "speech"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "fc9db50c8c624ec349d9",
+                "start": 19.5,
+                "end": 22.0,
+                "modalities": [
+                  "screen"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "11c63e5e91d4442decb0",
+                "start": 27.5,
+                "end": 30.0,
+                "modalities": [
+                  "screen"
+                ],
+                "uncertain": true
+              },
+              {
+                "id": "5e221e9fc8494c18ca68",
+                "start": 0,
+                "end": 2.0,
+                "modalities": [
+                  "screen"
+                ],
+                "uncertain": true
+              }
+            ],
+            "top1_iou": 0.65,
+            "recall_at_k": {
+              "1": 1,
+              "3": 1,
+              "5": 1
+            },
+            "elapsed_seconds": 0.015
+          },
+          {
+            "id": "negative-0",
+            "query": "Where is the Kubernetes cluster upgraded?",
+            "group": "scripted_debugging",
+            "type": "hard_negative",
+            "answerable": false,
+            "hits": [],
+            "top1_iou": 0,
+            "recall_at_k": {
+              "1": 0,
+              "3": 0,
+              "5": 0
+            },
+            "elapsed_seconds": 0.016
+          },
+          {
+            "id": "negative-1",
+            "query": "Show the payment refund confirmation.",
+            "group": "scripted_debugging",
+            "type": "hard_negative",
+            "answerable": false,
+            "hits": [],
+            "top1_iou": 0,
+            "recall_at_k": {
+              "1": 0,
+              "3": 0,
+              "5": 0
+            },
+            "elapsed_seconds": 0.031
+          }
+        ]
+      }
+    },
+    "limitations": [
+      "Gold labels are supplied by the evaluator, never inferred by this runner.",
+      "One manifest per run; combine video-level results across independent videos.",
+      "Measured latency includes cold model loading unless the caller externally warmed it.",
+      "A small scripted fixture measures pipeline mechanics, not real-user retrieval quality."
+    ]
+  },
+  "status": "pass",
+  "finished_at": "2026-09-19T08:38:18.898150+00:00"
+}

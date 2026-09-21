@@ -1,0 +1,7 @@
+1
+00:00:00,000 --> 00:00:18,167
+The error says database URL is missing. We need to inspect the environment file. Open the environment file. Add the database URL for local postgres and save the file.
+
+2
+00:00:18,167 --> 00:00:20,000
+The verification reports 12 tests passed and the health end point returns to...

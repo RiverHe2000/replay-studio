@@ -1,0 +1,21 @@
+{
+  "status": "stopped",
+  "checked_at": "2026-09-19T08:45:47.5071712Z",
+  "dedicated_ports_closed": [
+    55433,
+    59000,
+    59001,
+    58089
+  ],
+  "database_and_object_data_preserved": true,
+  "system_services_modified": false,
+  "postgres_version": "16.15",
+  "minio_release": "RELEASE.2025-09-07T16-13-09Z",
+  "postgres_source": "https://get.enterprisedb.com/postgresql/postgresql-16.15-4-windows-x64-binaries.zip",
+  "minio_source": "https://github.com/minio/minio/releases/download/RELEASE.2025-09-07T16-13-09Z/minio.windows-amd64.RELEASE.2025-09-07T16-13-09Z.exe",
+  "minio_sha256": "af709e6ba68488404e85acdd22a3030d0f5e56a108d4b27d744f18ceb50861b4",
+  "minio_official_checksum_matched": true,
+  "postgres_zip_sha256_computed": "f5f55b03bd54ce0dd1c51d524b54c7e015abd4d620af27d6971288a2dbe4a8f8",
+  "postgres_publisher_checksum_verified": false,
+  "docker_socket_actions_retried": false
+}
