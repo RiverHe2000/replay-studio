@@ -1,0 +1,77 @@
+[
+  {
+    "id": "a-transcript",
+    "query": "Show the pasted meeting transcript before drafting the note.",
+    "predicate": "transcript_before_draft",
+    "answerable": true,
+    "asset_id": "correction-approval",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": [
+      {
+        "start": 3.349,
+        "end": 21.551
+      }
+    ]
+  },
+  {
+    "id": "a-unsupported",
+    "query": "Where is the unsupported decision flagged for review?",
+    "predicate": "unsupported_visible",
+    "answerable": true,
+    "asset_id": "correction-approval",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": [
+      {
+        "start": 27.653,
+        "end": 47.752
+      }
+    ]
+  },
+  {
+    "id": "a-editor",
+    "query": "Find the claim text editor while the unsupported decision is being corrected.",
+    "predicate": "editor_visible",
+    "answerable": true,
+    "asset_id": "correction-approval",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": [
+      {
+        "start": 37.652,
+        "end": 47.752
+      }
+    ]
+  },
+  {
+    "id": "a-approved",
+    "query": "Show the approved note and its changed lines.",
+    "predicate": "approval_visible",
+    "answerable": true,
+    "asset_id": "correction-approval",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": [
+      {
+        "start": 52.849,
+        "end": 69.84
+      }
+    ]
+  },
+  {
+    "id": "a-absent",
+    "query": "Show the Kubernetes deployment configuration.",
+    "predicate": "never",
+    "answerable": false,
+    "asset_id": "correction-approval",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": []
+  }
+]

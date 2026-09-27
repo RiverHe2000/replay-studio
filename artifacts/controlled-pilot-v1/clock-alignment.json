@@ -1,0 +1,21 @@
+{
+  "method": "AI direct visual reading of the instrumented elapsed-time badge in decoded source frames; no OCR or retrieval model was run",
+  "evidence": "clock-review.png",
+  "recorded_before_model_evaluation": true,
+  "correction-approval": {
+    "video_frame_times": [5, 15, 25, 35, 45, 55, 65],
+    "visible_badge_times": [5.3, 15.2, 25.2, 35.3, 45.2, 55.3, 65.3],
+    "subtract_from_dom_seconds": 0.25
+  },
+  "evidence-feedback": {
+    "video_frame_times": [5, 15, 25, 35, 45, 55, 65],
+    "visible_badge_times": [5.2, 15.2, 25.2, 35.2, 45.2, 55.2, 65.2],
+    "subtract_from_dom_seconds": 0.2
+  },
+  "residual_uncertainty_seconds": 0.25,
+  "tail": "After monitor shutdown the encoder retains the final actual viewport briefly. Direct final-frame review confirms the visible states persist through each video's end",
+  "deviations": [
+    "Existing Chromium 1234 executable was explicitly selected because the installed Playwright expected uncached Chromium 1243. No browser was downloaded; source receipts record actual browser version",
+    "DOM page-creation clock led the encoded video clock. The initial unreviewed labels were aligned from the visible clock before labels were frozen and before any model prediction. Queries, states, clips and thresholds were unchanged"
+  ]
+}

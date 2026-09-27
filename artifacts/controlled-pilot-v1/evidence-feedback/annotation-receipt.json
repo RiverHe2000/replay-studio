@@ -1,0 +1,41 @@
+{
+  "protocol_sha256": "48701ed72e7a977fdd21ca90f37aa6d9dec413afc9a2729bc0de2ba3d0e53a36",
+  "source_sha256": "c448784dacc442833039f0398ea038511c576940b274bf6693831d0d43afa8f7",
+  "events_sha256": "3ce06838ffb65fcae7596734c0dec26da18a310f00a50b1c767f37914b25b5f1",
+  "queries_sha256": "71c20083cc8328d903034d8e524064230dcac816f8854aabd1f763c8bc2cc743",
+  "review_frame_times": [
+    0.5,
+    5.0,
+    11.63,
+    12.43,
+    15.0,
+    25.0,
+    26.13,
+    26.83,
+    27.63,
+    35.0,
+    39.84,
+    40.64,
+    45.0,
+    46.78,
+    48.34,
+    52.93,
+    53.73,
+    55.0,
+    61.39,
+    65.0,
+    68.94,
+    69.04,
+    69.34
+  ],
+  "visual_review_status": "verified_before_model_evaluation",
+  "author": "AI-authored reference verified directly against source-video frames and application state logs; not human/expert gold",
+  "timing_uncertainty_seconds": 0.25,
+  "review_notes": [
+    "Reviewed every generated contact sheet: transition-adjacent, interval interior, systematic 10-second samples and final encoded frames.",
+    "Read the elapsed-time badge independently to align DOM and video clocks; see clock-alignment.json and clock-review.png.",
+    "Confirmed all requested positive states and every later recurrence. Neither absent feature is present in the recorded application workflow.",
+    "No OCR, CLIP, retrieval results or generated captions were used to produce or correct reference labels.",
+    "The backend uses seeded synthetic meeting facts. Recording is real browser interaction by an AI operator, not a participant study."
+  ]
+}

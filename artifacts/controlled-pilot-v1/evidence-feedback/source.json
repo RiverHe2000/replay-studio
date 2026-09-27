@@ -1,0 +1,83 @@
+{
+  "asset_id": "evidence-feedback",
+  "sha256": "c448784dacc442833039f0398ea038511c576940b274bf6693831d0d43afa8f7",
+  "bytes": 6752146,
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "vp8",
+        "codec_long_name": "On2 VP8",
+        "profile": "0",
+        "codec_type": "video",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "vp8",
+        "width": 1280,
+        "height": 900,
+        "coded_width": 1280,
+        "coded_height": 900,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "64:45",
+        "pix_fmt": "yuv420p",
+        "level": -99,
+        "chroma_location": "center",
+        "field_order": "progressive",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "eng",
+          "ENCODER": "Lavc61.3.100 libvpx",
+          "DURATION": "00:01:09.440000000"
+        }
+      }
+    ],
+    "format": {
+      "filename": "D:\\Project\\replay-studio\\artifacts\\controlled-pilot-v1\\evidence-feedback\\source.webm",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "matroska,webm",
+      "format_long_name": "Matroska / WebM",
+      "start_time": "0.000000",
+      "duration": "69.440000",
+      "size": "6752146",
+      "bit_rate": "777897",
+      "probe_score": 100,
+      "tags": {
+        "creation_time": "2026-09-27T05:10:17.017000Z",
+        "ENCODER": "Lavf61.1.100"
+      }
+    }
+  },
+  "browser": "151.0.7922.34",
+  "operator": "AI via Playwright",
+  "content": "seeded synthetic meeting; scripted app model; no private data",
+  "audio": false,
+  "epoch_utc": 1790485816.9781616
+}

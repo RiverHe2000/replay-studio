@@ -1,0 +1,81 @@
+[
+  {
+    "id": "b-strategy",
+    "query": "Where is the extract compose verify repair strategy selected?",
+    "predicate": "verified_strategy_visible",
+    "answerable": true,
+    "asset_id": "evidence-feedback",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": [
+      {
+        "start": 12.027,
+        "end": 40.236
+      },
+      {
+        "start": 53.331,
+        "end": 69.44
+      }
+    ]
+  },
+  {
+    "id": "b-evidence",
+    "query": "Show the highlighted transcript segment after following an evidence reference.",
+    "predicate": "highlight_visible",
+    "answerable": true,
+    "asset_id": "evidence-feedback",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": [
+      {
+        "start": 27.233,
+        "end": 69.44
+      }
+    ]
+  },
+  {
+    "id": "b-comment",
+    "query": "Where is the needs work feedback comment being entered?",
+    "predicate": "feedback_comment_visible",
+    "answerable": true,
+    "asset_id": "evidence-feedback",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": [
+      {
+        "start": 40.236,
+        "end": 53.331
+      }
+    ]
+  },
+  {
+    "id": "b-submitted",
+    "query": "Find the feedback recorded confirmation.",
+    "predicate": "feedback_recorded_visible",
+    "answerable": true,
+    "asset_id": "evidence-feedback",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": [
+      {
+        "start": 53.331,
+        "end": 69.44
+      }
+    ]
+  },
+  {
+    "id": "b-absent",
+    "query": "Show the credit card payment checkout.",
+    "predicate": "never",
+    "answerable": false,
+    "asset_id": "evidence-feedback",
+    "group": "file-note-controlled-session-v1",
+    "split": "controlled_pilot",
+    "type": "screen_only",
+    "intervals": []
+  }
+]
