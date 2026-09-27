@@ -6,3 +6,7 @@
 *.wav binary
 *.woff binary
 *.woff2 binary
+*.webm binary
+# Pilot receipts hash captured JSON bytes; preserve those bytes across platforms.
+artifacts/controlled-pilot-v1/**/*.json -text
+artifacts/controlled-pilot-v1/*.json -text

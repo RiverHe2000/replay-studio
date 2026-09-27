@@ -1,6 +1,8 @@
 """Reference-window and diagnostic behavior, independent of model predictions."""
 
+import hashlib
 import importlib.util
+import json
 from pathlib import Path
 
 import pytest
@@ -42,3 +44,23 @@ def test_missing_hits_have_no_fake_zero_boundary_error():
         "start_absolute_seconds": 1,
         "end_absolute_seconds": 2,
     }
+
+
+def test_committed_reference_receipts_match_exact_bytes_and_frozen_queries():
+    root = Path(__file__).parents[1] / "artifacts" / "controlled-pilot-v1"
+    protocol = json.loads((root / "protocol.json").read_text(encoding="utf-8"))
+    for task in protocol["tasks"]:
+        asset = root / task["asset_id"]
+        receipt = json.loads((asset / "annotation-receipt.json").read_text(encoding="utf-8"))
+        for path, field in [
+            (root / "protocol.json", "protocol_sha256"),
+            (asset / "source.webm", "source_sha256"),
+            (asset / "events.json", "events_sha256"),
+            (asset / "queries.json", "queries_sha256"),
+        ]:
+            assert hashlib.sha256(path.read_bytes()).hexdigest() == receipt[field]
+        cases = json.loads((asset / "queries.json").read_text(encoding="utf-8"))
+        assert len(cases) == len(task["queries"])
+        for case, frozen in zip(cases, task["queries"], strict=True):
+            assert {key: case[key] for key in frozen} == frozen
+            assert bool(case["intervals"]) == frozen["answerable"]

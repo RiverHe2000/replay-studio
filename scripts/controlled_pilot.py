@@ -219,6 +219,9 @@ def evaluate_pilot() -> None:
         receipt = read(out / "annotation-receipt.json")
         if receipt["visual_review_status"] != "verified_before_model_evaluation":
             raise ValueError("Direct frame verification must precede evaluation")
+        for filename, field in [("protocol.json", "protocol_sha256")]:
+            if sha(ARTIFACTS / filename) != receipt[field]:
+                raise ValueError(f"Frozen protocol receipt mismatch: {filename}")
         for filename, field in [
             ("source.webm", "source_sha256"),
             ("events.json", "events_sha256"),
