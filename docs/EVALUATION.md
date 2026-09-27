@@ -2,6 +2,8 @@
 
 The included generated video is an integration fixture, visibly labelled on every frame. It is not a real incident, not an unseen test set and not a substitute for a user study. The script never inserts its expected labels into the analyzer.
 
+A separate [controlled browser pilot](CONTROLLED_RECORDING_PILOT.md) now retains two actual silent browser recordings, preregistered queries and AI-authored references checked against frames and application state. It is a single-source software-task pilot with synthetic application content. It does not satisfy the larger corpus or human-participant protocol below.
+
 ## Dataset protocol
 
 The original target remains 20–30 authorized recordings, roughly 8–15 hours, and 150 human-written queries. No such dataset has been collected by this implementation. Obtain permission before retaining or publishing recordings; record source, license/consent, speaker/source group, duration and hash. Keep private source material outside Git.

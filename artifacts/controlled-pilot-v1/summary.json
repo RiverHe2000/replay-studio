@@ -1,0 +1,154 @@
+{
+  "protocol_sha256": "48701ed72e7a977fdd21ca90f37aa6d9dec413afc9a2729bc0de2ba3d0e53a36",
+  "device": "cpu",
+  "gpu_used": false,
+  "environment": {
+    "rapidocr": "3.9.2",
+    "onnxruntime": "1.29.0",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.16.1",
+    "numpy": "2.2.6"
+  },
+  "python": "3.12.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "assets": {
+    "correction-approval": {
+      "duration_seconds": 69.833333,
+      "sampled_frames": 35,
+      "index_seconds": 311.891,
+      "ocr_seconds": 289.859,
+      "clip_seconds": 18.047,
+      "visual_model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "source_sha256": "3275511bf7c8667287dcf50c68d97ad688c5e8ba5756abb78527e036fa408516",
+      "queries_sha256": "993065b4d95d53e2203c547b7a130eb5458608f533efc6abb36f36fa6dd07927",
+      "clock_alignment_sha256": "282dec0df803ada6df2835f8b51ed75fd07438c3d6295c83b2d0f6ccaf027c48",
+      "modes": {
+        "speech": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.0,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        },
+        "speech_ocr": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.04490098201443184,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        },
+        "fusion": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.04490098201443184,
+          "false_positive_rate": 1.0,
+          "correct_abstention_rate": 0.0
+        }
+      },
+      "evidence_time_hit_at_k": {
+        "speech": {
+          "1": 0.0,
+          "3": 0.0,
+          "5": 0.0
+        },
+        "speech_ocr": {
+          "1": 0.25,
+          "3": 0.5,
+          "5": 0.5
+        },
+        "fusion": {
+          "1": 0.25,
+          "3": 0.5,
+          "5": 0.5
+        }
+      }
+    },
+    "evidence-feedback": {
+      "duration_seconds": 69.433333,
+      "sampled_frames": 35,
+      "index_seconds": 272.656,
+      "ocr_seconds": 263.75,
+      "clip_seconds": 4.875,
+      "visual_model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "source_sha256": "c448784dacc442833039f0398ea038511c576940b274bf6693831d0d43afa8f7",
+      "queries_sha256": "71c20083cc8328d903034d8e524064230dcac816f8854aabd1f763c8bc2cc743",
+      "clock_alignment_sha256": "282dec0df803ada6df2835f8b51ed75fd07438c3d6295c83b2d0f6ccaf027c48",
+      "modes": {
+        "speech": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.0,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        },
+        "speech_ocr": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.022156049487752138,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        },
+        "fusion": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.039925613778035746,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "evidence_time_hit_at_k": {
+        "speech": {
+          "1": 0.0,
+          "3": 0.0,
+          "5": 0.0
+        },
+        "speech_ocr": {
+          "1": 0.25,
+          "3": 0.25,
+          "5": 0.25
+        },
+        "fusion": {
+          "1": 0.5,
+          "3": 0.5,
+          "5": 0.5
+        }
+      }
+    }
+  }
+}

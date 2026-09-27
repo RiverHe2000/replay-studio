@@ -1,0 +1,1141 @@
+{
+  "speech": [
+    {
+      "id": "b-strategy",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    },
+    {
+      "id": "b-evidence",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    },
+    {
+      "id": "b-comment",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    },
+    {
+      "id": "b-submitted",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    },
+    {
+      "id": "b-absent",
+      "answerable": false,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    }
+  ],
+  "speech_ocr": [
+    {
+      "id": "b-strategy",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 1.4730000000000008,
+        "end_absolute_seconds": 24.235999999999997
+      },
+      "hits": [
+        {
+          "id": "e99a7d1551d6d85fc29f",
+          "start": 13.5,
+          "end": 16.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿  o    :     o\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 14.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000008.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿  o    :     o\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 14.2s",
+              "time": 14.0,
+              "end": 14.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "2c98ada82a298875ce15",
+          "start": 15.5,
+          "end": 18.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿  o    :     o\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 16.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000009.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿  o    :     o\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 16.2s",
+              "time": 16.0,
+              "end": 16.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "3f75696e5e8c27fe01bf",
+          "start": 17.5,
+          "end": 20.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :     ow\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000010.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :     ow\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+              "time": 18.0,
+              "end": 18.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "64725d1d0750af0984c4",
+          "start": 19.5,
+          "end": 22.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :     ow\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :     ow\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "b85e603b6b67162f173f",
+          "start": 21.5,
+          "end": 24.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nssoa   t t t  t    s    k k :  be.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :  n   ow.\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件 未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/2\nextracting: window 2/2\ncomposing: 16 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 1 item(s)\ngoals: 1 item(s)\ntopics_discussed: 3 item(s)\nadvice_discussed: 2 item(s)\ndecisions: 2 item(s)\naction_items: 5 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nInsurance review meeting with Chloe Fraser and Nathan Bennett on 30 June 2026\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\ncovering fees, premiums, insurance. Decisions were made where noted below;\nother advice was discussed and deferred.\n50053\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\non your cover and the premiums.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nMortgage reduced by $33,000; balance now $598,000.\nthe bonus. The balance is down to $598,000.\n5004\n5005\n5007\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\nEdit\nDelete\n□ wrong\ndollars left. That changes the insurance picture, we'll come to that.\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\nGOALS\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nPay off the mortgage by 2034.\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\n5009\nS010\nmoved?\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nEdit\nDelete\n□ wrong\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nTOPICS DISCUSSED\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nFees: platform administration fee 0.46% per year; ongoing advice fee $6,000\nAI controlled pilot |\nI synthetic meeting | silent | 22.2soing advice fee is 6 thousand a\nvear (por the fee disclosure statement)",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000012.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nssoa   t t t  t    s    k k :  be.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :  n   ow.\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件 未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/2\nextracting: window 2/2\ncomposing: 16 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 1 item(s)\ngoals: 1 item(s)\ntopics_discussed: 3 item(s)\nadvice_discussed: 2 item(s)\ndecisions: 2 item(s)\naction_items: 5 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nInsurance review meeting with Chloe Fraser and Nathan Bennett on 30 June 2026\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\ncovering fees, premiums, insurance. Decisions were made where noted below;\nother advice was discussed and deferred.\n50053\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\non your cover and the premiums.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nMortgage reduced by $33,000; balance now $598,000.\nthe bonus. The balance is down to $598,000.\n5004\n5005\n5007\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\nEdit\nDelete\n□ wrong\ndollars left. That changes the insurance picture, we'll come to that.\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\nGOALS\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nPay off the mortgage by 2034.\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\n5009\nS010\nmoved?\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nEdit\nDelete\n□ wrong\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nTOPICS DISCUSSED\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nFees: platform administration fee 0.46% per year; ongoing advice fee $6,000\nAI controlled pilot |\nI synthetic meeting | silent | 22.2soing advice fee is 6 thousand a\nvear (por the fee disclosure statement)",
+              "time": 22.0,
+              "end": 22.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "b-evidence",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 27.233,
+        "end_absolute_seconds": 67.44
+      },
+      "hits": [
+        {
+          "id": "2e468c496ae272607200",
+          "start": 0,
+          "end": 2.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000001.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.",
+              "time": 0.0,
+              "end": 0.03333333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "3fc1ca9b25f1131f0351",
+          "start": 1.5,
+          "end": 4.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000002.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+              "time": 2.0,
+              "end": 2.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "95a0de6ab7a7fbc01c3e",
+          "start": 5.5,
+          "end": 8.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t        :       ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\ns           :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 6.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000004.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t        :       ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\ns           :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 6.2s",
+              "time": 6.0,
+              "end": 6.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "076b0e5240e1a79bd7a5",
+          "start": 7.5,
+          "end": 10.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t               ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst                w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 8.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000005.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t               ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst                w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 8.2s",
+              "time": 8.0,
+              "end": 8.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "62c76f38f6cb17b48bb6",
+          "start": 9.5,
+          "end": 12.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.2s",
+              "time": 10.0,
+              "end": 10.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "b-comment",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 40.236,
+        "end_absolute_seconds": 51.331
+      },
+      "hits": [
+        {
+          "id": "2e468c496ae272607200",
+          "start": 0,
+          "end": 2.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000001.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.",
+              "time": 0.0,
+              "end": 0.03333333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "3fc1ca9b25f1131f0351",
+          "start": 1.5,
+          "end": 4.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000002.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+              "time": 2.0,
+              "end": 2.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "95a0de6ab7a7fbc01c3e",
+          "start": 5.5,
+          "end": 8.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t        :       ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\ns           :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 6.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000004.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t        :       ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\ns           :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 6.2s",
+              "time": 6.0,
+              "end": 6.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "076b0e5240e1a79bd7a5",
+          "start": 7.5,
+          "end": 10.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t               ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst                w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 8.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000005.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t               ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst                w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 8.2s",
+              "time": 8.0,
+              "end": 8.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "62c76f38f6cb17b48bb6",
+          "start": 9.5,
+          "end": 12.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.2s",
+              "time": 10.0,
+              "end": 10.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "b-submitted",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 11.831000000000003,
+        "end_absolute_seconds": 25.439999999999998
+      },
+      "hits": [
+        {
+          "id": "7c958717de0ef3ac3da3",
+          "start": 41.5,
+          "end": 44.0,
+          "score": 0.01639344,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nyear, which is on the fee disclosure statement.\nConflicts / related-party products disclosed: yes\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 000 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript.\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 42.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000022.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nyear, which is on the fee disclosure statement.\nConflicts / related-party products disclosed: yes\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 000 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript.\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 42.2s",
+              "time": 42.0,
+              "end": 42.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "e0a799801114aef5d214",
+          "start": 43.5,
+          "end": 46.0,
+          "score": 0.01612903,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 44.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000023.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 44.2s",
+              "time": 44.0,
+              "end": 44.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "6d5f50ba4dd45e9dcd12",
+          "start": 45.5,
+          "end": 48.0,
+          "score": 0.01587302,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 46.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000024.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 46.2s",
+              "time": 46.0,
+              "end": 46.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "baab02ba862d7c5c0e00",
+          "start": 47.5,
+          "end": 50.0,
+          "score": 0.015625,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\ns003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\n5013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 48.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000025.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\ns003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\n5013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 48.2s",
+              "time": 48.0,
+              "end": 48.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "cd759f456d0bbb355196",
+          "start": 49.5,
+          "end": 52.0,
+          "score": 0.01538462,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\ns003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\n5008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\n5013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 900 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 50.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000026.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\ns003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\n5008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\n5013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 900 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 50.2s",
+              "time": 50.0,
+              "end": 50.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "b-absent",
+      "answerable": false,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    }
+  ],
+  "fusion": [
+    {
+      "id": "b-strategy",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 1.4730000000000008,
+        "end_absolute_seconds": 24.235999999999997
+      },
+      "hits": [
+        {
+          "id": "e99a7d1551d6d85fc29f",
+          "start": 13.5,
+          "end": 16.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿  o    :     o\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 14.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000008.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿  o    :     o\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 14.2s",
+              "time": 14.0,
+              "end": 14.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "2c98ada82a298875ce15",
+          "start": 15.5,
+          "end": 18.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿  o    :     o\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 16.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000009.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿  o    :     o\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 16.2s",
+              "time": 16.0,
+              "end": 16.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "3f75696e5e8c27fe01bf",
+          "start": 17.5,
+          "end": 20.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :     ow\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000010.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :     ow\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+              "time": 18.0,
+              "end": 18.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "64725d1d0750af0984c4",
+          "start": 19.5,
+          "end": 22.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :     ow\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :     ow\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "b85e603b6b67162f173f",
+          "start": 21.5,
+          "end": 24.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nssoa   t t t  t    s    k k :  be.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :  n   ow.\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件 未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/2\nextracting: window 2/2\ncomposing: 16 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 1 item(s)\ngoals: 1 item(s)\ntopics_discussed: 3 item(s)\nadvice_discussed: 2 item(s)\ndecisions: 2 item(s)\naction_items: 5 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nInsurance review meeting with Chloe Fraser and Nathan Bennett on 30 June 2026\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\ncovering fees, premiums, insurance. Decisions were made where noted below;\nother advice was discussed and deferred.\n50053\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\non your cover and the premiums.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nMortgage reduced by $33,000; balance now $598,000.\nthe bonus. The balance is down to $598,000.\n5004\n5005\n5007\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\nEdit\nDelete\n□ wrong\ndollars left. That changes the insurance picture, we'll come to that.\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\nGOALS\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nPay off the mortgage by 2034.\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\n5009\nS010\nmoved?\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nEdit\nDelete\n□ wrong\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nTOPICS DISCUSSED\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nFees: platform administration fee 0.46% per year; ongoing advice fee $6,000\nAI controlled pilot |\nI synthetic meeting | silent | 22.2soing advice fee is 6 thousand a\nvear (por the fee disclosure statement)",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000012.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nssoa   t t t  t    s    k k :  be.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\n' :  n   ow.\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件 未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/2\nextracting: window 2/2\ncomposing: 16 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 1 item(s)\ngoals: 1 item(s)\ntopics_discussed: 3 item(s)\nadvice_discussed: 2 item(s)\ndecisions: 2 item(s)\naction_items: 5 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nInsurance review meeting with Chloe Fraser and Nathan Bennett on 30 June 2026\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\ncovering fees, premiums, insurance. Decisions were made where noted below;\nother advice was discussed and deferred.\n50053\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\non your cover and the premiums.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nMortgage reduced by $33,000; balance now $598,000.\nthe bonus. The balance is down to $598,000.\n5004\n5005\n5007\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\nEdit\nDelete\n□ wrong\ndollars left. That changes the insurance picture, we'll come to that.\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\nGOALS\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nPay off the mortgage by 2034.\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\n5009\nS010\nmoved?\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nEdit\nDelete\n□ wrong\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nTOPICS DISCUSSED\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nFees: platform administration fee 0.46% per year; ongoing advice fee $6,000\nAI controlled pilot |\nI synthetic meeting | silent | 22.2soing advice fee is 6 thousand a\nvear (por the fee disclosure statement)",
+              "time": 22.0,
+              "end": 22.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "b-evidence",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 33.766999999999996,
+        "end_absolute_seconds": 5.439999999999998
+      },
+      "hits": [
+        {
+          "id": "c1e83c86703da2e13806",
+          "start": 61.0,
+          "end": 64.0,
+          "score": 0.02162162,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nFeedback recorded, thank you.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/2\nextracting: window 2/2\ncomposing: 16 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 1 item(s)\ngoals: 1 item(s)\ntopics_discussed: 3 item(s)\nadvice_discussed: 2 item(s)\ndecisions: 2 item(s)\naction_items: 5 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nInsurance review meeting with Chloe Fraser and Nathan Bennett on 30 June 2026\n5002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\ncovering fees, premiums, insurance. Decisions were made where noted below;\nother advice was discussed and deferred.\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\non your cover and the premiums.\nCHANGES IN CIRCUMSTANCES\ns004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nMortgage reduced by $33,000; balance now $598,000.\nthe bonus. The balance is down to $598,000.\n5004\n5005\n5007\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\nEdit\nDelete\n□ wrong\ndollars left. That changes the insurance picture, we'll come to that.\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\nGOALS\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nPay off the mortgage by 2034.\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\n5009\n5010\nmoved?\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nEdit\nDelete\n□ wrong\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nTOPICS DISCUSSED\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nFees: platform administration fee 0.46% per year; ongoing advice fee $6,000\nAI controlled pilot |\nsynthetic meeting | silent | 62.2s oing advice fee is 6 thousand a\nr vear (ner the fee disclesure statement)",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000032.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nFeedback recorded, thank you.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/2\nextracting: window 2/2\ncomposing: 16 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 1 item(s)\ngoals: 1 item(s)\ntopics_discussed: 3 item(s)\nadvice_discussed: 2 item(s)\ndecisions: 2 item(s)\naction_items: 5 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nInsurance review meeting with Chloe Fraser and Nathan Bennett on 30 June 2026\n5002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\ncovering fees, premiums, insurance. Decisions were made where noted below;\nother advice was discussed and deferred.\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\non your cover and the premiums.\nCHANGES IN CIRCUMSTANCES\ns004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nMortgage reduced by $33,000; balance now $598,000.\nthe bonus. The balance is down to $598,000.\n5004\n5005\n5007\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\nEdit\nDelete\n□ wrong\ndollars left. That changes the insurance picture, we'll come to that.\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\nGOALS\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nPay off the mortgage by 2034.\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\n5009\n5010\nmoved?\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nEdit\nDelete\n□ wrong\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nTOPICS DISCUSSED\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nFees: platform administration fee 0.46% per year; ongoing advice fee $6,000\nAI controlled pilot |\nsynthetic meeting | silent | 62.2s oing advice fee is 6 thousand a\nr vear (ner the fee disclesure statement)",
+              "time": 62.0,
+              "end": 62.03333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 62.0,
+              "source": "clip",
+              "similarity": 0.2896360158920288
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "7c958717de0ef3ac3da3",
+          "start": 41.0,
+          "end": 44.0,
+          "score": 0.021572,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nyear, which is on the fee disclosure statement.\nConflicts / related-party products disclosed: yes\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 000 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript.\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 42.2s",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000022.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nyear, which is on the fee disclosure statement.\nConflicts / related-party products disclosed: yes\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 000 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript.\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 42.2s",
+              "time": 42.0,
+              "end": 42.03333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 42.0,
+              "source": "clip",
+              "similarity": 0.29913222789764404
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "b061abb3de16ab4df45a",
+          "start": 53.0,
+          "end": 56.0,
+          "score": 0.02133333,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nFeedback recorded, thank you.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/2\nextracting: window 2/2\ncomposing: 16 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 1 item(s)\ngoals: 1 item(s)\ntopics_discussed: 3 item(s)\nadvice_discussed: 2 item(s)\ndecisions: 2 item(s)\naction_items: 5 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nInsurance review meeting with Chloe Fraser and Nathan Bennett on 30 June 2026\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\ncovering fees, premiums, insurance. Decisions were made where noted below;\nother advice was discussed and deferred.\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\non your cover and the premiums.\nCHANGES IN CIRCUMSTANCES\ns004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nMortgage reduced by $33,000; balance now $598,000.\nthe bonus. The balance is down to $598,000.\n5004\n5005\n5007\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\nEdit\nDelete\n□ wrong\ndollars left. That changes the insurance picture, we'll come to that.\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\nGOALS\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nPay off the mortgage by 2034.\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\n5009\n5010\nmoved?\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nEdit\nDelete\n□ wrong\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nTOPICS DISCUSSED\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nFees: platform administration fee 0.46% per year; ongoing advice fee $6,000\nAI controlled pilot |\nI synthetic meeting | silent | 54.2s oing advice fee is 6 thousand a\nr vear (per the fee disclesure statement)",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000028.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nFeedback recorded, thank you.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns033 [00:03:58] Ravi Rossi (adviser): Okay so let's lock in the next review for the 27th of December.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/2\nextracting: window 2/2\ncomposing: 16 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 1 item(s)\ngoals: 1 item(s)\ntopics_discussed: 3 item(s)\nadvice_discussed: 2 item(s)\ndecisions: 2 item(s)\naction_items: 5 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nInsurance review meeting with Chloe Fraser and Nathan Bennett on 30 June 2026\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\ncovering fees, premiums, insurance. Decisions were made where noted below;\nother advice was discussed and deferred.\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\non your cover and the premiums.\nCHANGES IN CIRCUMSTANCES\ns004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nMortgage reduced by $33,000; balance now $598,000.\nthe bonus. The balance is down to $598,000.\n5004\n5005\n5007\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\nEdit\nDelete\n□ wrong\ndollars left. That changes the insurance picture, we'll come to that.\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\nGOALS\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nPay off the mortgage by 2034.\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\n5009\n5010\nmoved?\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nEdit\nDelete\n□ wrong\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nTOPICS DISCUSSED\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nFees: platform administration fee 0.46% per year; ongoing advice fee $6,000\nAI controlled pilot |\nI synthetic meeting | silent | 54.2s oing advice fee is 6 thousand a\nr vear (per the fee disclesure statement)",
+              "time": 54.0,
+              "end": 54.03333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 54.0,
+              "source": "clip",
+              "similarity": 0.2886994183063507
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "e0a799801114aef5d214",
+          "start": 43.0,
+          "end": 46.0,
+          "score": 0.02127976,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 44.2s",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000023.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 44.2s",
+              "time": 44.0,
+              "end": 44.03333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 44.0,
+              "source": "clip",
+              "similarity": 0.2988959550857544
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "d3ec6a339676b6bc7864",
+          "start": 51.0,
+          "end": 54.0,
+          "score": 0.0211997,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\ns003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□wrong\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\n5008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\n5013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 900 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 52.2s",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000027.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\ns003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□wrong\ns006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\n5008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\n5013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 900 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 52.2s",
+              "time": 52.0,
+              "end": 52.03333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 52.0,
+              "source": "clip",
+              "similarity": 0.3014240860939026
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "b-comment",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 40.236,
+        "end_absolute_seconds": 51.331
+      },
+      "hits": [
+        {
+          "id": "2e468c496ae272607200",
+          "start": 0,
+          "end": 2.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000001.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.",
+              "time": 0.0,
+              "end": 0.03333333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "3fc1ca9b25f1131f0351",
+          "start": 1.5,
+          "end": 4.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000002.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+              "time": 2.0,
+              "end": 2.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "95a0de6ab7a7fbc01c3e",
+          "start": 5.5,
+          "end": 8.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t        :       ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\ns           :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 6.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000004.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t        :       ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\ns           :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 6.2s",
+              "time": 6.0,
+              "end": 6.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "076b0e5240e1a79bd7a5",
+          "start": 7.5,
+          "end": 10.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t               ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst                w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 8.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000005.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nso     t               ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst                w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 8.2s",
+              "time": 8.0,
+              "end": 8.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "62c76f38f6cb17b48bb6",
+          "start": 9.5,
+          "end": 12.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\nsso     t        : t k k :   ber.\ns034 [00:04:06] Chloe Fraser (client): Works for me.\ns035 [00:04:09] Ravi Rossi (adviser): Say hello to the kids for me.\ns036 [00:04:14] Chloe Fraser (client): Will do, thanks for your time.\ns037 [00:04:20] Ravi Rossi (adviser): Yeah, let me just pull up your file, bear with me.\ns038 [00:04:28] Chloe Fraser (client): No problem.\nst     ¿      :     w\ns040 [00:04:38] Chloe Fraser (client): It's fine, thanks.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.2s",
+              "time": 10.0,
+              "end": 10.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "b-submitted",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 53.331,
+        "end_absolute_seconds": 67.44
+      },
+      "hits": [
+        {
+          "id": "2e468c496ae272607200",
+          "start": 0,
+          "end": 2.0,
+          "score": 0.0231694,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000001.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.",
+              "time": 0.0,
+              "end": 0.03333333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 0.0,
+              "source": "clip",
+              "similarity": 0.2716079354286194
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "3fc1ca9b25f1131f0351",
+          "start": 1.0,
+          "end": 4.0,
+          "score": 0.02283531,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000002.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+              "time": 2.0,
+              "end": 2.033333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 2.0,
+              "source": "clip",
+              "similarity": 0.27029943466186523
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "7c958717de0ef3ac3da3",
+          "start": 41.5,
+          "end": 44.0,
+          "score": 0.01639344,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nyear, which is on the fee disclosure statement.\nConflicts / related-party products disclosed: yes\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 000 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript.\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 42.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000022.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nyear, which is on the fee disclosure statement.\nConflicts / related-party products disclosed: yes\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 000 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript.\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 42.2s",
+              "time": 42.0,
+              "end": 42.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "e0a799801114aef5d214",
+          "start": 43.5,
+          "end": 46.0,
+          "score": 0.01612903,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 44.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000023.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 44.2s",
+              "time": 44.0,
+              "end": 44.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "6d5f50ba4dd45e9dcd12",
+          "start": 45.5,
+          "end": 48.0,
+          "score": 0.01587302,
+          "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 46.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000024.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nEdit\nDelete\n□ wrong\ns001\n00:00:00\nRavi Rossi (adviser): Did you catch the footy final on the weekend?\nUpdate the fact-find with the new salary details owner: adviser · due 2026-07-27\ns002\n00:00:06\nChloe Fraser (client): I did, what a finish. My nephew was there.\n5030\n5003\n00:00:12\nRavi Rossi (adviser): Today is the insurance review, so we'll focus\nEdit\nDelete\n□ wrong\non your cover and the premiums.\n5004\n00:00:20\nChloe Fraser (client): Right, we paid $33,000 off the mortgage with\nModel the insurance options for the next review owner: adviser · due 2026-08-04\nthe bonus. The balance is down to $598,000.\n5031\n5005\n00:00:29\nRavi Rossi (adviser): five hundred and ninety-eight thousand\ndollars left. That changes the insurance picture, we'll come to that.\nEdit\nDelete\n□ wrong\n5006\n00:00:37\nChloe Fraser (client): Sorry, just to check, what was that figure?\n[5007\n00:00:43\nRavi Rossi (adviser): Yes. as I said, we'll factor that into the plan.\nSend the ongoing fee consent form for signature owner: adviser · due 2026-08-05\n5032\ns008\n00:00:50\nRavi Rossi (adviser): So, let's go through your goals, has anything\nmoved?\nEdit\nDelete\n□ wrong\n[5009\n00:00:57\nNathan Bennett (client): We'd like the mortgage gone by 2034.\nCOMPLIANCE\n5010\n00:01:01\nRavi Rossi (adviser): Mortgage paid off by 2034, good.\nRisk profile confirmed: not recorded\n5011\n00:01:06\nRavi Rossi (adviser): On fees: the platform administration fee is\nOngoing fee consent discussed: no\n0.46 percent a year and my ongoing advice fee is 6 thousand a\nConflicts / related-party products disclosed: yes\nyear, which is on the fee disclosure statement.\n5012\n00:01:20\nChloe Fraser (client): Okay, that's what I had in my notes.\nFOLLOW-UP\ns013\n00:01:25\nRavi Rossi (adviser): Your insurance premium has gone from 5,500\nNext review scheduled for 2026-12-27.\ndollars to six thousand five hundred dollars a year at the renewal.\n5033\n5034\n5014\n00:01:36\nNathan Bennett (client): Okay so that's a big jump.\nEdit\nDelete\n□ wrong\n5015\n00:01:40\nRavi Rossi (adviser): The options are moving to level premiums or\ntrimming the cover. I'd lean towards level premiums given your\nage.\nApprove and save\n5016\n00:01:51\nChloe Fraser (client): Yes, let's go ahead with that.\n5017\n00:01:56\nRavi Rossi (adviser): Okay, we'll switch the policy to level\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\npremiums at the next renewal.\nadviser@northshore\n5018\n00:02:04\nRavi Rossi (adviser): So, your cover through Northshore Life is\n$450,000 of life cover, 400 thousand TPD, and income protection\nFeedback\nof 5 000 dollarc a month Tho nromium ic 5 800 dollarc a voar\nGood\nNeeds work\nlainst its cited transcript\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 46.2s",
+              "time": 46.0,
+              "end": 46.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "b-absent",
+      "answerable": false,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    }
+  ]
+}

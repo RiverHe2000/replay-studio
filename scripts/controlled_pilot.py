@@ -11,6 +11,7 @@ import hashlib
 import json
 import os
 import platform
+import shutil
 import subprocess
 import time
 from importlib.metadata import version
@@ -181,7 +182,7 @@ def annotate() -> None:
         print(task["asset_id"], [(c["id"], c["intervals"]) for c in cases], flush=True)
 
 
-def evaluate_pilot() -> None:
+def evaluate_pilot(results_dir: Path | None = None) -> None:
     # Set before importing any numerical/model runtime. No GPU or online weights.
     for key, value in {
         "REPLAY_MODEL_DEVICE": "cpu",
@@ -204,6 +205,7 @@ def evaluate_pilot() -> None:
     from replay_studio.retrieval import MODES, search
 
     torch.set_num_threads(2)
+    results_dir = results_dir or ARTIFACTS
     protocol = read(ARTIFACTS / "protocol.json")
     summary = {
         "protocol_sha256": sha(ARTIFACTS / "protocol.json"),
@@ -215,8 +217,9 @@ def evaluate_pilot() -> None:
         "assets": {},
     }
     for task in protocol["tasks"]:
-        out = ARTIFACTS / task["asset_id"]
-        receipt = read(out / "annotation-receipt.json")
+        source_dir = ARTIFACTS / task["asset_id"]
+        out = results_dir / task["asset_id"]
+        receipt = read(source_dir / "annotation-receipt.json")
         if receipt["visual_review_status"] != "verified_before_model_evaluation":
             raise ValueError("Direct frame verification must precede evaluation")
         for filename, field in [("protocol.json", "protocol_sha256")]:
@@ -227,13 +230,13 @@ def evaluate_pilot() -> None:
             ("events.json", "events_sha256"),
             ("queries.json", "queries_sha256"),
         ]:
-            if sha(out / filename) != receipt[field]:
+            if sha(source_dir / filename) != receipt[field]:
                 raise ValueError(f"Reference receipt mismatch: {filename}")
         if (out / "evaluation.json").exists():
             raise ValueError("Refusing to overwrite measured results")
         base = ROOT / "data" / "controlled-pilot-v1" / task["asset_id"] / "index"
         started = time.monotonic()
-        prepared = prepare(out / "source.webm", base)
+        prepared = prepare(source_dir / "source.webm", base)
         print(task["asset_id"], "prepared", len(prepared["frames"]), flush=True)
         asr_result = transcribe(None, base)
         ocr_result = ocr(prepared["frames"], base, base)
@@ -246,7 +249,8 @@ def evaluate_pilot() -> None:
         manifest = {"prepare": prepared, "asr": asr_result, "ocr": ocr_result, "visual": visual_result}
         write(base / "manifest.json", manifest)
         write(out / "manifest.json", manifest)
-        cases = read(out / "queries.json")
+        shutil.copyfile(base / "visual.npz", out / "visual.npz")
+        cases = read(source_dir / "queries.json")
         result = evaluate(cases, manifest, base)
         # Preserve the first measured evaluation; this second call only gathers
         # deterministic evidence details omitted by the generic evaluator.
@@ -276,8 +280,8 @@ def evaluate_pilot() -> None:
             "ocr_seconds": ocr_result["elapsed_seconds"],
             "clip_seconds": visual_result["elapsed_seconds"],
             "visual_model_revision": visual_result.get("model_revision"),
-            "source_sha256": sha(out / "source.webm"),
-            "queries_sha256": sha(out / "queries.json"),
+            "source_sha256": sha(source_dir / "source.webm"),
+            "queries_sha256": sha(source_dir / "queries.json"),
             "clock_alignment_sha256": sha(ARTIFACTS / "clock-alignment.json"),
             "modes": {mode: report["micro"] for mode, report in result["reports"].items()},
             "evidence_time_hit_at_k": {
@@ -288,18 +292,74 @@ def evaluate_pilot() -> None:
                 for mode, rows in diagnostics.items()
             },
         }
-        write(ARTIFACTS / "summary.json", summary)
+        write(results_dir / "summary.json", summary)
         print(task["asset_id"], summary["assets"][task["asset_id"]], flush=True)
+
+
+def summarize_results(results_dir: Path) -> None:
+    """Pool recorded cases without running models or treating clips as independent groups."""
+    protocol = read(ARTIFACTS / "protocol.json")
+    reports = [read(results_dir / task["asset_id"] / "evaluation.json") for task in protocol["tasks"]]
+    diagnostics = [read(results_dir / task["asset_id"] / "diagnostics.json") for task in protocol["tasks"]]
+    pooled: dict[str, Any] = {
+        "source_group": protocol["source_group"],
+        "independent_source_groups": 1,
+        "confidence_intervals": None,
+        "modes": {},
+    }
+    for mode in ("speech", "speech_ocr", "fusion"):
+        cases = [case for report in reports for case in report["reports"][mode]["cases"]]
+        positive = [case for case in cases if case["answerable"]]
+        negative = [case for case in cases if not case["answerable"]]
+        diagnostic_rows = [case for report in diagnostics for case in report[mode] if case["answerable"]]
+        assert len(diagnostic_rows) == len(positive)
+        boundaries = [
+            row["top1_boundary_error"] for row in diagnostic_rows if row["top1_boundary_error"] is not None
+        ]
+        pooled["modes"][mode] = {
+            "answerable_queries": len(positive),
+            "unanswerable_queries": len(negative),
+            "interval_recall_hits_at_k": {
+                str(k): sum(row["recall_at_k"][str(k)] for row in positive) for k in (1, 3, 5)
+            },
+            "mean_top1_iou": sum(row["top1_iou"] for row in positive) / len(positive),
+            "false_positives": sum(bool(row["hits"]) for row in negative),
+            "evidence_time_hits_at_k": {
+                str(k): sum(row["evidence_time_hit_at_k"][str(k)] for row in diagnostic_rows)
+                for k in (1, 3, 5)
+            },
+            "top1_boundary_errors": {
+                "queries_with_hits": len(boundaries),
+                "missing_no_hit": len(positive) - len(boundaries),
+                "mean_start_absolute_seconds": sum(row["start_absolute_seconds"] for row in boundaries)
+                / len(boundaries)
+                if boundaries
+                else None,
+                "mean_end_absolute_seconds": sum(row["end_absolute_seconds"] for row in boundaries)
+                / len(boundaries)
+                if boundaries
+                else None,
+            },
+        }
+    write(results_dir / "pooled.json", pooled)
+    print(json.dumps(pooled, indent=2))
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("annotate", "evaluate"))
+    parser.add_argument("command", choices=("annotate", "evaluate", "summarize"))
+    parser.add_argument(
+        "--results-dir",
+        type=Path,
+        help="Separate result location for replaying committed sources; existing results are never overwritten",
+    )
     args = parser.parse_args()
     if args.command == "annotate":
         annotate()
+    elif args.command == "summarize":
+        summarize_results(args.results_dir or ARTIFACTS)
     else:
-        evaluate_pilot()
+        evaluate_pilot(args.results_dir)
 
 
 if __name__ == "__main__":

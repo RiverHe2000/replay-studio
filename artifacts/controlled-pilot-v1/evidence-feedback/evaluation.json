@@ -1,0 +1,772 @@
+{
+  "schema_version": 1,
+  "dataset_sha256": "b5bb6d97c3e72b83c6de892f904e631dc08f1318b6ea400e06a8ca9dca37a2f4",
+  "manifest_sha256": "66d5ad804c668a2c1f358b97c935586c9f57692493b99ff3f5683e57185bfa2b",
+  "iou_threshold": 0.3,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.0",
+  "reports": {
+    "speech": {
+      "micro": {
+        "queries": 5,
+        "answerable_queries": 4,
+        "unanswerable_queries": 1,
+        "recall_at_k": {
+          "1": 0.0,
+          "3": 0.0,
+          "5": 0.0
+        },
+        "mean_top1_iou": 0.0,
+        "false_positive_rate": 0.0,
+        "correct_abstention_rate": 1.0
+      },
+      "video_macro_recall_at_k": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "by_group": {
+        "file-note-controlled-session-v1": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.0,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "by_type": {
+        "screen_only": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.0,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "cases": [
+        {
+          "id": "b-strategy",
+          "query": "Where is the extract compose verify repair strategy selected?",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        },
+        {
+          "id": "b-evidence",
+          "query": "Show the highlighted transcript segment after following an evidence reference.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        },
+        {
+          "id": "b-comment",
+          "query": "Where is the needs work feedback comment being entered?",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        },
+        {
+          "id": "b-submitted",
+          "query": "Find the feedback recorded confirmation.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        },
+        {
+          "id": "b-absent",
+          "query": "Show the credit card payment checkout.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": false,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        }
+      ]
+    },
+    "speech_ocr": {
+      "micro": {
+        "queries": 5,
+        "answerable_queries": 4,
+        "unanswerable_queries": 1,
+        "recall_at_k": {
+          "1": 0.0,
+          "3": 0.0,
+          "5": 0.0
+        },
+        "mean_top1_iou": 0.022156049487752138,
+        "false_positive_rate": 0.0,
+        "correct_abstention_rate": 1.0
+      },
+      "video_macro_recall_at_k": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "by_group": {
+        "file-note-controlled-session-v1": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.022156049487752138,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "by_type": {
+        "screen_only": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.022156049487752138,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "cases": [
+        {
+          "id": "b-strategy",
+          "query": "Where is the extract compose verify repair strategy selected?",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "e99a7d1551d6d85fc29f",
+              "start": 13.5,
+              "end": 16.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "2c98ada82a298875ce15",
+              "start": 15.5,
+              "end": 18.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "3f75696e5e8c27fe01bf",
+              "start": 17.5,
+              "end": 20.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "64725d1d0750af0984c4",
+              "start": 19.5,
+              "end": 22.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "b85e603b6b67162f173f",
+              "start": 21.5,
+              "end": 24.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.08862419795100855,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.031
+        },
+        {
+          "id": "b-evidence",
+          "query": "Show the highlighted transcript segment after following an evidence reference.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "2e468c496ae272607200",
+              "start": 0,
+              "end": 2.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "3fc1ca9b25f1131f0351",
+              "start": 1.5,
+              "end": 4.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "95a0de6ab7a7fbc01c3e",
+              "start": 5.5,
+              "end": 8.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "076b0e5240e1a79bd7a5",
+              "start": 7.5,
+              "end": 10.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "62c76f38f6cb17b48bb6",
+              "start": 9.5,
+              "end": 12.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.031
+        },
+        {
+          "id": "b-comment",
+          "query": "Where is the needs work feedback comment being entered?",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "2e468c496ae272607200",
+              "start": 0,
+              "end": 2.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "3fc1ca9b25f1131f0351",
+              "start": 1.5,
+              "end": 4.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "95a0de6ab7a7fbc01c3e",
+              "start": 5.5,
+              "end": 8.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "076b0e5240e1a79bd7a5",
+              "start": 7.5,
+              "end": 10.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "62c76f38f6cb17b48bb6",
+              "start": 9.5,
+              "end": 12.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.031
+        },
+        {
+          "id": "b-submitted",
+          "query": "Find the feedback recorded confirmation.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "7c958717de0ef3ac3da3",
+              "start": 41.5,
+              "end": 44.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "e0a799801114aef5d214",
+              "start": 43.5,
+              "end": 46.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "6d5f50ba4dd45e9dcd12",
+              "start": 45.5,
+              "end": 48.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "baab02ba862d7c5c0e00",
+              "start": 47.5,
+              "end": 50.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "cd759f456d0bbb355196",
+              "start": 49.5,
+              "end": 52.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.032
+        },
+        {
+          "id": "b-absent",
+          "query": "Show the credit card payment checkout.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": false,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.031
+        }
+      ]
+    },
+    "fusion": {
+      "micro": {
+        "queries": 5,
+        "answerable_queries": 4,
+        "unanswerable_queries": 1,
+        "recall_at_k": {
+          "1": 0.0,
+          "3": 0.0,
+          "5": 0.0
+        },
+        "mean_top1_iou": 0.039925613778035746,
+        "false_positive_rate": 0.0,
+        "correct_abstention_rate": 1.0
+      },
+      "video_macro_recall_at_k": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "by_group": {
+        "file-note-controlled-session-v1": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.039925613778035746,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "by_type": {
+        "screen_only": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.039925613778035746,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "cases": [
+        {
+          "id": "b-strategy",
+          "query": "Where is the extract compose verify repair strategy selected?",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "e99a7d1551d6d85fc29f",
+              "start": 13.5,
+              "end": 16.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "2c98ada82a298875ce15",
+              "start": 15.5,
+              "end": 18.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "3f75696e5e8c27fe01bf",
+              "start": 17.5,
+              "end": 20.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "64725d1d0750af0984c4",
+              "start": 19.5,
+              "end": 22.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "b85e603b6b67162f173f",
+              "start": 21.5,
+              "end": 24.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.08862419795100855,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.078
+        },
+        {
+          "id": "b-evidence",
+          "query": "Show the highlighted transcript segment after following an evidence reference.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "c1e83c86703da2e13806",
+              "start": 61.0,
+              "end": 64.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "7c958717de0ef3ac3da3",
+              "start": 41.0,
+              "end": 44.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "b061abb3de16ab4df45a",
+              "start": 53.0,
+              "end": 56.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "e0a799801114aef5d214",
+              "start": 43.0,
+              "end": 46.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "d3ec6a339676b6bc7864",
+              "start": 51.0,
+              "end": 54.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.07107825716113442,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.078
+        },
+        {
+          "id": "b-comment",
+          "query": "Where is the needs work feedback comment being entered?",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "2e468c496ae272607200",
+              "start": 0,
+              "end": 2.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "3fc1ca9b25f1131f0351",
+              "start": 1.5,
+              "end": 4.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "95a0de6ab7a7fbc01c3e",
+              "start": 5.5,
+              "end": 8.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "076b0e5240e1a79bd7a5",
+              "start": 7.5,
+              "end": 10.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "62c76f38f6cb17b48bb6",
+              "start": 9.5,
+              "end": 12.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.047
+        },
+        {
+          "id": "b-submitted",
+          "query": "Find the feedback recorded confirmation.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "2e468c496ae272607200",
+              "start": 0,
+              "end": 2.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "3fc1ca9b25f1131f0351",
+              "start": 1.0,
+              "end": 4.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "7c958717de0ef3ac3da3",
+              "start": 41.5,
+              "end": 44.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "e0a799801114aef5d214",
+              "start": 43.5,
+              "end": 46.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "6d5f50ba4dd45e9dcd12",
+              "start": 45.5,
+              "end": 48.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.062
+        },
+        {
+          "id": "b-absent",
+          "query": "Show the credit card payment checkout.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": false,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.063
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Gold labels are supplied by the evaluator, never inferred by this runner.",
+    "One manifest per run; combine video-level results across independent videos.",
+    "Measured latency includes cold model loading unless the caller externally warmed it.",
+    "A small scripted fixture measures pipeline mechanics, not real-user retrieval quality."
+  ]
+}

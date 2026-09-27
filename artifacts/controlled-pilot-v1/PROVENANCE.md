@@ -4,6 +4,7 @@
 - Source recordings, event logs and visually reviewed labels frozen in `3abe624` before invoking any Replay Studio model.
 - Actual Chromium viewport capture: two silent recordings, 69.84 and 69.44 seconds, one shared application/source group. The application backend and meeting contents are explicitly scripted/synthetic; the recorded browser interaction is real.
 - Direct AI frame review covered transition-adjacent frames, interval interiors, systematic samples and final encoded frames. A separate root AI agent additionally reviewed both second contact sheets and confirmed the correction, approval, feedback and persistent-highlight states. Neither review is human annotation or participant evidence.
+- A separate audit AI agent independently recomputed all ten reference windows from the complete DOM runs and clock offsets, including recurrence and final-state extensions. It also recomputed the first recording's per-query evidence-time scores and confirmed the denominators, negative false positive and distinction from interval IoU. This is code/data review, not a second human label set.
 - `clock-alignment.json` documents the pre-model correction from DOM clock to video time. It uses visually read instrumentation, not OCR predictions. Final labels retain every full visible interval and later recurrence. The frozen uncertainty is ±0.25 seconds.
 
 ## Byte preservation correction

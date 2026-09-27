@@ -1,0 +1,816 @@
+{
+  "schema_version": 1,
+  "dataset_sha256": "cb517aa98ba69dabe208a2b03ee41e964990ee77ee511288385128dd2f315409",
+  "manifest_sha256": "2aae144b363934ef1c77e651f6d251120fe7df78ea8ae380ff1c1d81b59a343e",
+  "iou_threshold": 0.3,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.0",
+  "reports": {
+    "speech": {
+      "micro": {
+        "queries": 5,
+        "answerable_queries": 4,
+        "unanswerable_queries": 1,
+        "recall_at_k": {
+          "1": 0.0,
+          "3": 0.0,
+          "5": 0.0
+        },
+        "mean_top1_iou": 0.0,
+        "false_positive_rate": 0.0,
+        "correct_abstention_rate": 1.0
+      },
+      "video_macro_recall_at_k": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "by_group": {
+        "file-note-controlled-session-v1": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.0,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "by_type": {
+        "screen_only": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.0,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "cases": [
+        {
+          "id": "a-transcript",
+          "query": "Show the pasted meeting transcript before drafting the note.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        },
+        {
+          "id": "a-unsupported",
+          "query": "Where is the unsupported decision flagged for review?",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        },
+        {
+          "id": "a-editor",
+          "query": "Find the claim text editor while the unsupported decision is being corrected.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        },
+        {
+          "id": "a-approved",
+          "query": "Show the approved note and its changed lines.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        },
+        {
+          "id": "a-absent",
+          "query": "Show the Kubernetes deployment configuration.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": false,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.0
+        }
+      ]
+    },
+    "speech_ocr": {
+      "micro": {
+        "queries": 5,
+        "answerable_queries": 4,
+        "unanswerable_queries": 1,
+        "recall_at_k": {
+          "1": 0.0,
+          "3": 0.0,
+          "5": 0.0
+        },
+        "mean_top1_iou": 0.04490098201443184,
+        "false_positive_rate": 0.0,
+        "correct_abstention_rate": 1.0
+      },
+      "video_macro_recall_at_k": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "by_group": {
+        "file-note-controlled-session-v1": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.04490098201443184,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "by_type": {
+        "screen_only": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.04490098201443184,
+          "false_positive_rate": 0.0,
+          "correct_abstention_rate": 1.0
+        }
+      },
+      "cases": [
+        {
+          "id": "a-transcript",
+          "query": "Show the pasted meeting transcript before drafting the note.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "3fc1ca9b25f1131f0351",
+              "start": 1.5,
+              "end": 4.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "86f36f8a1706be908c71",
+              "start": 17.5,
+              "end": 20.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "779909fc1f0617d83384",
+              "start": 19.5,
+              "end": 22.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "c6bcde46dfa3b2f01665",
+              "start": 9.5,
+              "end": 12.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "8df434664d4bd5b4ce91",
+              "start": 11.5,
+              "end": 14.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.03246720861802403,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.031
+        },
+        {
+          "id": "a-unsupported",
+          "query": "Where is the unsupported decision flagged for review?",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "d284062ad9d100de90e8",
+              "start": 21.5,
+              "end": 24.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "b3efbcb27273e15820ec",
+              "start": 23.5,
+              "end": 26.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "925a1d57f7b3cb737288",
+              "start": 25.5,
+              "end": 28.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "86f36f8a1706be908c71",
+              "start": 17.5,
+              "end": 20.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "779909fc1f0617d83384",
+              "start": 19.5,
+              "end": 22.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.016
+        },
+        {
+          "id": "a-editor",
+          "query": "Find the claim text editor while the unsupported decision is being corrected.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "3fc1ca9b25f1131f0351",
+              "start": 1.5,
+              "end": 4.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "86f36f8a1706be908c71",
+              "start": 17.5,
+              "end": 20.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "779909fc1f0617d83384",
+              "start": 19.5,
+              "end": 22.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "c6bcde46dfa3b2f01665",
+              "start": 9.5,
+              "end": 12.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "8df434664d4bd5b4ce91",
+              "start": 11.5,
+              "end": 14.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.031
+        },
+        {
+          "id": "a-approved",
+          "query": "Show the approved note and its changed lines.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "374a9a5c0e5841d20a9a",
+              "start": 59.5,
+              "end": 62.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "ff501d7aa8d345ec22b5",
+              "start": 65.5,
+              "end": 68.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "ad5117162b7fb21eb761",
+              "start": 53.5,
+              "end": 56.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "21710495f8d4d350e1d0",
+              "start": 57.5,
+              "end": 60.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "02892dbb05c77940e575",
+              "start": 55.5,
+              "end": 58.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.1471367194397033,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.047
+        },
+        {
+          "id": "a-absent",
+          "query": "Show the Kubernetes deployment configuration.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": false,
+          "hits": [],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.016
+        }
+      ]
+    },
+    "fusion": {
+      "micro": {
+        "queries": 5,
+        "answerable_queries": 4,
+        "unanswerable_queries": 1,
+        "recall_at_k": {
+          "1": 0.0,
+          "3": 0.0,
+          "5": 0.0
+        },
+        "mean_top1_iou": 0.04490098201443184,
+        "false_positive_rate": 1.0,
+        "correct_abstention_rate": 0.0
+      },
+      "video_macro_recall_at_k": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "by_group": {
+        "file-note-controlled-session-v1": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.04490098201443184,
+          "false_positive_rate": 1.0,
+          "correct_abstention_rate": 0.0
+        }
+      },
+      "by_type": {
+        "screen_only": {
+          "queries": 5,
+          "answerable_queries": 4,
+          "unanswerable_queries": 1,
+          "recall_at_k": {
+            "1": 0.0,
+            "3": 0.0,
+            "5": 0.0
+          },
+          "mean_top1_iou": 0.04490098201443184,
+          "false_positive_rate": 1.0,
+          "correct_abstention_rate": 0.0
+        }
+      },
+      "cases": [
+        {
+          "id": "a-transcript",
+          "query": "Show the pasted meeting transcript before drafting the note.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "3fc1ca9b25f1131f0351",
+              "start": 1.5,
+              "end": 4.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "86f36f8a1706be908c71",
+              "start": 17.5,
+              "end": 20.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "779909fc1f0617d83384",
+              "start": 19.5,
+              "end": 22.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "c6bcde46dfa3b2f01665",
+              "start": 9.5,
+              "end": 12.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "8df434664d4bd5b4ce91",
+              "start": 11.5,
+              "end": 14.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.03246720861802403,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.937
+        },
+        {
+          "id": "a-unsupported",
+          "query": "Where is the unsupported decision flagged for review?",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "d284062ad9d100de90e8",
+              "start": 21.5,
+              "end": 24.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "b3efbcb27273e15820ec",
+              "start": 23.5,
+              "end": 26.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "925a1d57f7b3cb737288",
+              "start": 25.5,
+              "end": 28.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "86f36f8a1706be908c71",
+              "start": 17.5,
+              "end": 20.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "779909fc1f0617d83384",
+              "start": 19.5,
+              "end": 22.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.063
+        },
+        {
+          "id": "a-editor",
+          "query": "Find the claim text editor while the unsupported decision is being corrected.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "86f36f8a1706be908c71",
+              "start": 17.0,
+              "end": 20.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "779909fc1f0617d83384",
+              "start": 19.0,
+              "end": 22.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "aedb7f3d8dc3e95245ed",
+              "start": 13.0,
+              "end": 16.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "c6bcde46dfa3b2f01665",
+              "start": 9.0,
+              "end": 12.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "8df434664d4bd5b4ce91",
+              "start": 11.0,
+              "end": 14.0,
+              "modalities": [
+                "screen",
+                "visual"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.078
+        },
+        {
+          "id": "a-approved",
+          "query": "Show the approved note and its changed lines.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": true,
+          "hits": [
+            {
+              "id": "374a9a5c0e5841d20a9a",
+              "start": 59.5,
+              "end": 62.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "ff501d7aa8d345ec22b5",
+              "start": 65.5,
+              "end": 68.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "ad5117162b7fb21eb761",
+              "start": 53.5,
+              "end": 56.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "21710495f8d4d350e1d0",
+              "start": 57.5,
+              "end": 60.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "02892dbb05c77940e575",
+              "start": 55.5,
+              "end": 58.0,
+              "modalities": [
+                "screen"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0.1471367194397033,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.062
+        },
+        {
+          "id": "a-absent",
+          "query": "Show the Kubernetes deployment configuration.",
+          "group": "file-note-controlled-session-v1",
+          "type": "screen_only",
+          "answerable": false,
+          "hits": [
+            {
+              "id": "c5c822cae6cd6d560191",
+              "start": 5.0,
+              "end": 8.0,
+              "modalities": [
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "05f6fd7fabaf376d0c7d",
+              "start": 7.0,
+              "end": 10.0,
+              "modalities": [
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "55118e8e7da3c2c8daaf",
+              "start": 9.0,
+              "end": 12.0,
+              "modalities": [
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "d37230c8520703ee3920",
+              "start": 3.0,
+              "end": 6.0,
+              "modalities": [
+                "visual"
+              ],
+              "uncertain": true
+            },
+            {
+              "id": "c368e57ce799437f2a80",
+              "start": 13.0,
+              "end": 16.0,
+              "modalities": [
+                "visual"
+              ],
+              "uncertain": true
+            }
+          ],
+          "top1_iou": 0,
+          "recall_at_k": {
+            "1": 0,
+            "3": 0,
+            "5": 0
+          },
+          "elapsed_seconds": 0.063
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Gold labels are supplied by the evaluator, never inferred by this runner.",
+    "One manifest per run; combine video-level results across independent videos.",
+    "Measured latency includes cold model loading unless the caller externally warmed it.",
+    "A small scripted fixture measures pipeline mechanics, not real-user retrieval quality."
+  ]
+}

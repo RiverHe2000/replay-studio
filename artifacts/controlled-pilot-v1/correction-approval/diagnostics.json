@@ -1,0 +1,1236 @@
+{
+  "speech": [
+    {
+      "id": "a-transcript",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    },
+    {
+      "id": "a-unsupported",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    },
+    {
+      "id": "a-editor",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    },
+    {
+      "id": "a-approved",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    },
+    {
+      "id": "a-absent",
+      "answerable": false,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    }
+  ],
+  "speech_ocr": [
+    {
+      "id": "a-transcript",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 1,
+        "5": 1
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 1.8490000000000002,
+        "end_absolute_seconds": 17.551
+      },
+      "hits": [
+        {
+          "id": "3fc1ca9b25f1131f0351",
+          "start": 1.5,
+          "end": 4.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000002.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+              "time": 2.0,
+              "end": 2.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "86f36f8a1706be908c71",
+          "start": 17.5,
+          "end": 20.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000010.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+              "time": 18.0,
+              "end": 18.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "779909fc1f0617d83384",
+          "start": 19.5,
+          "end": 22.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "c6bcde46dfa3b2f01665",
+          "start": 9.5,
+          "end": 12.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optio\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optio\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.3s",
+              "time": 10.0,
+              "end": 10.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "8df434664d4bd5b4ce91",
+          "start": 11.5,
+          "end": 14.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 12.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000007.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 12.3s",
+              "time": 12.0,
+              "end": 12.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "a-unsupported",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 6.152999999999999,
+        "end_absolute_seconds": 23.752000000000002
+      },
+      "hits": [
+        {
+          "id": "d284062ad9d100de90e8",
+          "start": 21.5,
+          "end": 24.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 22.2s tulations! So that's three",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000012.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 22.2s tulations! So that's three",
+              "time": 22.0,
+              "end": 22.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "b3efbcb27273e15820ec",
+          "start": 23.5,
+          "end": 26.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 24.3s tulations! So that's three",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000013.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 24.3s tulations! So that's three",
+              "time": 24.0,
+              "end": 24.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "925a1d57f7b3cb737288",
+          "start": 25.5,
+          "end": 28.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件 未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 26.2s tulations! So that's three",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000014.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件 未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 26.2s tulations! So that's three",
+              "time": 26.0,
+              "end": 26.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "86f36f8a1706be908c71",
+          "start": 17.5,
+          "end": 20.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000010.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+              "time": 18.0,
+              "end": 18.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "779909fc1f0617d83384",
+          "start": 19.5,
+          "end": 22.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "a-editor",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 36.152,
+        "end_absolute_seconds": 43.752
+      },
+      "hits": [
+        {
+          "id": "3fc1ca9b25f1131f0351",
+          "start": 1.5,
+          "end": 4.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000002.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+              "time": 2.0,
+              "end": 2.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "86f36f8a1706be908c71",
+          "start": 17.5,
+          "end": 20.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000010.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+              "time": 18.0,
+              "end": 18.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "779909fc1f0617d83384",
+          "start": 19.5,
+          "end": 22.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "c6bcde46dfa3b2f01665",
+          "start": 9.5,
+          "end": 12.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optio\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optio\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.3s",
+              "time": 10.0,
+              "end": 10.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "8df434664d4bd5b4ce91",
+          "start": 11.5,
+          "end": 14.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 12.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000007.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 12.3s",
+              "time": 12.0,
+              "end": 12.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "a-approved",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 6.651000000000003,
+        "end_absolute_seconds": 7.840000000000003
+      },
+      "hits": [
+        {
+          "id": "374a9a5c0e5841d20a9a",
+          "start": 59.5,
+          "end": 62.0,
+          "score": 0.01639344,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\n+++ approved.md\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(st0s 'ε0t)\nAI controlled pilot | synthetic meeting | silent |\n60.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000031.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\n+++ approved.md\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(st0s 'ε0t)\nAI controlled pilot | synthetic meeting | silent |\n60.3s",
+              "time": 60.0,
+              "end": 60.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "ff501d7aa8d345ec22b5",
+          "start": 65.5,
+          "end": 68.0,
+          "score": 0.01612903,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nOngoing fee consent discussed: no\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\ns007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nFeedback\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\n5015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n+++ approved.md\n@@ -28,7 +28,7 @@\nabout 75 thousand a year to live on.\ns016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\ns017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n- -- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent I\n66.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000034.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nOngoing fee consent discussed: no\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\ns007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nFeedback\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\n5015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n+++ approved.md\n@@ -28,7 +28,7 @@\nabout 75 thousand a year to live on.\ns016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\ns017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n- -- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent I\n66.2s",
+              "time": 66.0,
+              "end": 66.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "ad5117162b7fb21eb761",
+          "start": 53.5,
+          "end": 56.0,
+          "score": 0.01587302,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\ns016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent |\n54.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000028.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\ns016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent |\n54.2s",
+              "time": 54.0,
+              "end": 54.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "21710495f8d4d350e1d0",
+          "start": 57.5,
+          "end": 60.0,
+          "score": 0.015625,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(st0s 'ε0t)\nAI controlled pilot | synthetic meeting | silent |\n58.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000030.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(st0s 'ε0t)\nAI controlled pilot | synthetic meeting | silent |\n58.3s",
+              "time": 58.0,
+              "end": 58.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "02892dbb05c77940e575",
+          "start": 55.5,
+          "end": 58.0,
+          "score": 0.01538462,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nOngoing fee consent discussed: no\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n- -- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent | 56.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000029.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nOngoing fee consent discussed: no\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n- -- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent | 56.3s",
+              "time": 56.0,
+              "end": 56.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "a-absent",
+      "answerable": false,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": []
+    }
+  ],
+  "fusion": [
+    {
+      "id": "a-transcript",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 1,
+        "5": 1
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 1.8490000000000002,
+        "end_absolute_seconds": 17.551
+      },
+      "hits": [
+        {
+          "id": "3fc1ca9b25f1131f0351",
+          "start": 1.5,
+          "end": 4.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000002.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\n# meeting: m0001\ns001 [00:00:04] Sarah Nguyen (adviser): Thanks for coming in...\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 2.2s",
+              "time": 2.0,
+              "end": 2.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "86f36f8a1706be908c71",
+          "start": 17.5,
+          "end": 20.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000010.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+              "time": 18.0,
+              "end": 18.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "779909fc1f0617d83384",
+          "start": 19.5,
+          "end": 22.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "c6bcde46dfa3b2f01665",
+          "start": 9.5,
+          "end": 12.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optio\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optio\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.3s",
+              "time": 10.0,
+              "end": 10.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "8df434664d4bd5b4ce91",
+          "start": 11.5,
+          "end": 14.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 12.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000007.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 12.3s",
+              "time": 12.0,
+              "end": 12.033333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "a-unsupported",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 6.152999999999999,
+        "end_absolute_seconds": 23.752000000000002
+      },
+      "hits": [
+        {
+          "id": "d284062ad9d100de90e8",
+          "start": 21.5,
+          "end": 24.0,
+          "score": 0.01639344,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 22.2s tulations! So that's three",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000012.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 22.2s tulations! So that's three",
+              "time": 22.0,
+              "end": 22.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "b3efbcb27273e15820ec",
+          "start": 23.5,
+          "end": 26.0,
+          "score": 0.01612903,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 24.3s tulations! So that's three",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000013.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 24.3s tulations! So that's three",
+              "time": 24.0,
+              "end": 24.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "925a1d57f7b3cb737288",
+          "start": 25.5,
+          "end": 28.0,
+          "score": 0.01587302,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件 未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 26.2s tulations! So that's three",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000014.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nDraft ready: 1 unsupported claim need your attention.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\nss         t  t t       : t t    2\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' :    [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件 未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\nqueued\nstarted: strategy verified\nextracting: window 1/3\nextracting: window 2/3\nextracting: window 3/3\ncomposing: 23 facts\nverifying: checking every claim\nrepairing: 1 unsupported claim(s)\ncircumstance_changes: 3 item(s)\ngoals: 3 item(s)\ntopics_discussed: 4 item(s)\nadvice_discussed: 3 item(s)\ndecisions: 2 item(s)\naction_items: 4 item(s)\ndone\n2. Transcript\n3. Draft note\n1 unsupported claim to resolve\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nAnnual review meeting with Lucas Moreau on 05 July 2026 covering\n5002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nconcessional, bdbn, super balance, non concessional. Decisions were made where\nnoted below; other advice was discussed and deferred.\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nCHANGES IN CIRCUMSTANCES\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\nLucas Moreau's salary increased to $148,000 in March following a promotion.\nMarch, I got a promotion.\n5004\n5005\n5005\n00:00:27\nfind.\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nEdit\nDelete\n□ wrong\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nLucas Moreau expects an inheritance of about $95,000 from their father's\ngetting an inheritance of about 95,000 dollars.\nestate; probate expected by September.\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\n5006\n5007\n5008\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nEdit\nDelete\n□ wrong\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nNew dependant Theo, born in May; the family now has 3 dependants.\nAI controlled pilot | synthetic meeting | silent | 26.2s tulations! So that's three",
+              "time": 26.0,
+              "end": 26.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "86f36f8a1706be908c71",
+          "start": 17.5,
+          "end": 20.0,
+          "score": 0.015625,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000010.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+              "time": 18.0,
+              "end": 18.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "779909fc1f0617d83384",
+          "start": 19.5,
+          "end": 22.0,
+          "score": 0.01538462,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "a-editor",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 20.652,
+        "end_absolute_seconds": 27.752000000000002
+      },
+      "hits": [
+        {
+          "id": "86f36f8a1706be908c71",
+          "start": 17.0,
+          "end": 20.0,
+          "score": 0.02580645,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000010.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 18.2s",
+              "time": 18.0,
+              "end": 18.033333333333335,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 18.0,
+              "source": "clip",
+              "similarity": 0.2869569957256317
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "779909fc1f0617d83384",
+          "start": 19.0,
+          "end": 22.0,
+          "score": 0.02570908,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000011.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [::\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 20.2s",
+              "time": 20.0,
+              "end": 20.033333333333335,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 20.0,
+              "source": "clip",
+              "similarity": 0.28696128726005554
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "aedb7f3d8dc3e95245ed",
+          "start": 13.0,
+          "end": 16.0,
+          "score": 0.02452652,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm: ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [:: e\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 14.3s",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000008.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm: ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [:: e\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nExtract → compose → verify → repair\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 14.3s",
+              "time": 14.0,
+              "end": 14.033333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 14.0,
+              "source": "clip",
+              "similarity": 0.28610819578170776
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "c6bcde46dfa3b2f01665",
+          "start": 9.0,
+          "end": 12.0,
+          "score": 0.02432065,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optio\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.3s",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optio\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 10.3s",
+              "time": 10.0,
+              "end": 10.033333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 10.0,
+              "source": "clip",
+              "similarity": 0.28550225496292114
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "8df434664d4bd5b4ce91",
+          "start": 11.0,
+          "end": 14.0,
+          "score": 0.02420814,
+          "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 12.3s",
+          "modalities": [
+            "screen",
+            "visual"
+          ],
+          "frame": "frames/frame_000007.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "File-note copilot\nEvery claim cites the transcript. Nothing is saved until you approve it.\nPaste a transcript to start.\n1. Transcript\nTranscript text (one line per segment: [hh:mm:ss] Name (role): text, or just Name: text)\ns044 [00:05:15] Lucas Moreau (client): Yes, I'll send it through.\ns045 [00:05:20] Zoe Hayes (adviser): Yeah, I'll model the bdbn options for the next review and get it to you by 18 August 2026.\ns046 [00:05:30] Zoe Hayes (adviser): I'll prepare the Statement of Advice for the concessional recommendation and get it to you by 13 July.\ns047 [00:05:39] Zoe Hayes (adviser): Look, I'll prepare the fee comparison for the review and get it to you by 25 July 2026.\ns048 [00:05:49] Zoe Hayes (adviser): Let's lock in the next review for 1/01/2027.\ns049 [00:05:55] Lucas Moreau (client): Works for me.\ns ' : (   [\ns051 [00:06:04] Lucas Moreau (client): Will do, thanks for your time.\nor upload a .txt\n选择文件\n未选择任何文件\nStrategy\nDraft→ verify → repair (default)\nV\nDraft note\nLoad sample\n2. Transcript\n3. Draft note\nApprove and save\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\nadviser@northshore\nFeedback\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\nTick \"wrong\" on a claim to include it in the feedback.\nAI controlled pilot | synthetic meeting | silent | 12.3s",
+              "time": 12.0,
+              "end": 12.033333333333333,
+              "source": "ocr"
+            },
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 12.0,
+              "source": "clip",
+              "similarity": 0.28550267219543457
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "a-approved",
+      "answerable": true,
+      "evidence_time_hit_at_k": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      },
+      "top1_boundary_error": {
+        "start_absolute_seconds": 6.651000000000003,
+        "end_absolute_seconds": 7.840000000000003
+      },
+      "hits": [
+        {
+          "id": "374a9a5c0e5841d20a9a",
+          "start": 59.5,
+          "end": 62.0,
+          "score": 0.01639344,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\n+++ approved.md\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(st0s 'ε0t)\nAI controlled pilot | synthetic meeting | silent |\n60.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000031.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\n+++ approved.md\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(st0s 'ε0t)\nAI controlled pilot | synthetic meeting | silent |\n60.3s",
+              "time": 60.0,
+              "end": 60.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "ff501d7aa8d345ec22b5",
+          "start": 65.5,
+          "end": 68.0,
+          "score": 0.01612903,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nOngoing fee consent discussed: no\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\ns007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nFeedback\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\n5015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n+++ approved.md\n@@ -28,7 +28,7 @@\nabout 75 thousand a year to live on.\ns016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\ns017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n- -- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent I\n66.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000034.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nOngoing fee consent discussed: no\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\n5003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\n5004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\ns007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\nFeedback\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\n5015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n+++ approved.md\n@@ -28,7 +28,7 @@\nabout 75 thousand a year to live on.\ns016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\ns017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n- -- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent I\n66.2s",
+              "time": 66.0,
+              "end": 66.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "ad5117162b7fb21eb761",
+          "start": 53.5,
+          "end": 56.0,
+          "score": 0.01587302,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\ns016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent |\n54.2s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000028.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\ns016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent |\n54.2s",
+              "time": 54.0,
+              "end": 54.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "21710495f8d4d350e1d0",
+          "start": 57.5,
+          "end": 60.0,
+          "score": 0.015625,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(st0s 'ε0t)\nAI controlled pilot | synthetic meeting | silent |\n58.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000030.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\nOongsss  e no\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great. I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n-- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(st0s 'ε0t)\nAI controlled pilot | synthetic meeting | silent |\n58.3s",
+              "time": 58.0,
+              "end": 58.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "02892dbb05c77940e575",
+          "start": 55.5,
+          "end": 58.0,
+          "score": 0.01538462,
+          "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nOngoing fee consent discussed: no\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n- -- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent | 56.3s",
+          "modalities": [
+            "screen"
+          ],
+          "frame": "frames/frame_000029.jpg",
+          "evidence": [
+            {
+              "modality": "screen",
+              "text": "2. Transcript\nRisk profile confirmed: yes (Balanced)\n[5001\n00:00:00\nZoe Hayes (adviser): The weather has really turned, hasn't it?\nOngoing fee consent discussed: no\nConflicts / related-party products disclosed: no\ns002\n00:00:06\nLucas Moreau (client): Um, it has, the garden is loving it though.\nFOLLOW-UP\ns003\n00:00:11\nZoe Hayes (adviser): This is your annual review, so let's go through\nwhat has changed and then the plan.\nNext review scheduled for 2027-01-01.\ns004\n00:00:20\nLucas Moreau (client): My salary went up to 148 thousand in\n5048\n5049\nMarch, I got a promotion.\nEdit\nDelete\n□ wrong\ns005\n00:00:27\nZoe Hayes (adviser): $148,000, that's great.I'll update the fact-\nfind.\n5006\n00:00:32\nLucas Moreau (client): So, my father passed away in May. I'm\nApprove and save\ngetting an inheritance of about 95,000 dollars.\nApproval is enabled once every unsupported claim has been edited or deleted. Approver\n5007\n00:00:42\nZoe Hayes (adviser): I'm sorry to hear that. 95 thousand, and when\nwill the estate come through?\nai-pilot@example.invalic\n5008\n00:00:50\nLucas Moreau (client): Probate should be finished by September.\n5009\n00:00:55\nLucas Moreau (client): We had a baby in May, Theo.\nFeedback\ns010\n00:01:00\nZoe Hayes (adviser): So, congratulations! So that's three\nGood\nNeeds work\nWhat was wrong? (optic\nSend feedback\ndependants now.\ns011\n00:01:06\nLucas Moreau (client): Yes, and not much sleep.\nTick \"wrong\" on a claim to include it in the feedback.\ns012\n00:01:11\nZoe Hayes (adviser): Yeah, sorry, one second, I just need to find\nApproved\nthat statement.\nApproved by ai-pilot@example.invalid at 2026-09-27T05:10:00.490+00:00\ns013\n00:01:18\nLucas Moreau (client): Right, take your time.\n(version 2, 2 changed lines vs the Al draft).\ns014\n00:01:23\nZoe Hayes (adviser): Let's go through your goals, has anything\nmoved?\n--- ai_draft.md\ns015\n00:01:29\nLucas Moreau (client): The main goal is still to retire at sixty with\n@@ -28,7 +28,7 @@\npppod +\nabout 75 thousand a year to live on.\n5016\n00:01:38\nZoe Hayes (adviser): Retire at 60, seventy-five thousand dollars a\n## Decisions\nyear of income. Noted.\n- Client agreed to salary sacrifice $9,000 per year from the next pay cycle.\n(s024, s025, s026)\n5017\n00:01:43\nLucas Moreau (client): We want to do a big overseas trip in 2029,\n- -- Client agreed to nominate the estate as beneficiary of the Northshore\nbudget around twenty-nine thousand dollars.\nPension. [UNSUPPORTED] (s001)\n+ +- Client agreed to nothing further (AI controlled test correction). (s001)\n5018\n00:01:51\nZoe Hayes (adviser): A 29,000 dollars trip in 2029. Fun goal.\n## Action items\n- [client] Confirm the salary sacrifice amount with payroll due 2026-08-09\n(s043, s044)\nAI controlled pilot | synthetic meeting | silent | 56.3s",
+              "time": 56.0,
+              "end": 56.03333333333333,
+              "source": "ocr"
+            }
+          ],
+          "uncertain": true,
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    },
+    {
+      "id": "a-absent",
+      "answerable": false,
+      "evidence_time_hit_at_k": {
+        "1": 0,
+        "3": 0,
+        "5": 0
+      },
+      "top1_boundary_error": null,
+      "hits": [
+        {
+          "id": "c5c822cae6cd6d560191",
+          "start": 5.0,
+          "end": 8.0,
+          "score": 0.00983607,
+          "text": "Visual candidate at 6.0s — inspect the frame to confirm",
+          "modalities": [
+            "visual"
+          ],
+          "frame": "frames/frame_000004.jpg",
+          "uncertain": true,
+          "evidence": [
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 6.0,
+              "source": "clip",
+              "similarity": 0.2797963619232178
+            }
+          ],
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "05f6fd7fabaf376d0c7d",
+          "start": 7.0,
+          "end": 10.0,
+          "score": 0.00967742,
+          "text": "Visual candidate at 8.0s — inspect the frame to confirm",
+          "modalities": [
+            "visual"
+          ],
+          "frame": "frames/frame_000005.jpg",
+          "uncertain": true,
+          "evidence": [
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 8.0,
+              "source": "clip",
+              "similarity": 0.27952367067337036
+            }
+          ],
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "55118e8e7da3c2c8daaf",
+          "start": 9.0,
+          "end": 12.0,
+          "score": 0.00952381,
+          "text": "Visual candidate at 10.0s — inspect the frame to confirm",
+          "modalities": [
+            "visual"
+          ],
+          "frame": "frames/frame_000006.jpg",
+          "uncertain": true,
+          "evidence": [
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 10.0,
+              "source": "clip",
+              "similarity": 0.2742113173007965
+            }
+          ],
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "d37230c8520703ee3920",
+          "start": 3.0,
+          "end": 6.0,
+          "score": 0.009375,
+          "text": "Visual candidate at 4.0s — inspect the frame to confirm",
+          "modalities": [
+            "visual"
+          ],
+          "frame": "frames/frame_000003.jpg",
+          "uncertain": true,
+          "evidence": [
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 4.0,
+              "source": "clip",
+              "similarity": 0.27304723858833313
+            }
+          ],
+          "score_kind": "reciprocal_rank_fusion"
+        },
+        {
+          "id": "c368e57ce799437f2a80",
+          "start": 13.0,
+          "end": 16.0,
+          "score": 0.00923077,
+          "text": "Visual candidate at 14.0s — inspect the frame to confirm",
+          "modalities": [
+            "visual"
+          ],
+          "frame": "frames/frame_000008.jpg",
+          "uncertain": true,
+          "evidence": [
+            {
+              "modality": "visual",
+              "text": "CLIP image–text similarity; no verified event label",
+              "time": 14.0,
+              "source": "clip",
+              "similarity": 0.2718285322189331
+            }
+          ],
+          "score_kind": "reciprocal_rank_fusion"
+        }
+      ]
+    }
+  ]
+}

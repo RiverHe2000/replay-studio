@@ -1,0 +1,14 @@
+{
+  "description": "Supplementary observed runtime identity; quality results are separate and unchanged",
+  "retrieval_source_sha256": "2fe69b8e0a39945292907f04bd44ea87e121bbb8d3338280bd707d9675dcaff3",
+  "analysis_source_sha256": "bc0527a0b140030762009eb729e1afff6cd381caa9d70ddb9c30a1ab184789fc",
+  "rapidocr_onnx_weights": {
+    "ch_ppocr_mobile_v2.0_cls_mobile.onnx": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c",
+    "PP-OCRv6_det_small.onnx": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f",
+    "PP-OCRv6_rec_small.onnx": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884"
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "thread_scope": "PyTorch and FFmpeg=2; RapidOCR ONNX Runtime installed defaults",
+  "gpu": "CUDA_VISIBLE_DEVICES empty and REPLAY_MODEL_DEVICE=cpu",
+  "repeat_policy": "Frozen source video and labels reused; repeated runs are reproduction, not new independent data"
+}

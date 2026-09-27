@@ -4,7 +4,7 @@ Find a moment in a technical recording, check the speech and screen evidence, th
 
 **React / TypeScript · FastAPI · ASR / OCR / CLIP · durable workers · PostgreSQL / S3 adapters**
 
-[View the demo](docs/DEMO.md) · [Play a ~20-second exported sample](artifacts/demo-reviewed/output.mp4) · [Measured results](docs/RESULTS.md) · [中文说明](README.zh-CN.md)
+[View the demo](docs/DEMO.md) · [Play a ~20-second exported sample](artifacts/demo-reviewed/output.mp4) · [Measured results](docs/RESULTS.md) · [Controlled recording pilot](docs/CONTROLLED_RECORDING_RESULTS.md) · [中文说明](README.zh-CN.md)
 
 ![Replay Studio showing source evidence, search results and a saved timeline](artifacts/browser/demo-ready.png)
 
@@ -27,6 +27,9 @@ The [demo guide](docs/DEMO.md) includes committed screenshots, the actual export
 | Automated checks | 119 backend/media/workflow tests and 3 browser checks passed in the recorded local run | Specific workflow, media timing, permission and conflict invariants |
 | PostgreSQL and S3 recovery | 15 restored tables and 39 object hashes matched; login, playback, retrieval and export worked after restore | Recovery against actual services on the Windows development host |
 | Small retrieval diagnostic | Speech Recall@1: 2/3; fusion: 1/3; both rejected 2/2 unanswerable queries | Fusion did not improve top-1 retrieval on this single synthetic fixture |
+| AI-operated browser recording pilot | 139 seconds, 8 positives + 2 negatives; secondary point-hit@1 OCR 2/8, fusion 3/8; false positives 0/2 vs 1/2 | Real silent software footage, one source group; frozen full-window IoU recall was 0/8 for every route and exposed a metric mismatch |
+
+The [controlled pilot](docs/CONTROLLED_RECORDING_RESULTS.md) retains both actual browser videos, predeclared queries, AI-reviewed reference windows and all failures. CPU indexing took 584.547 seconds. It is a small screen-only experiment over synthetic application content, with no human participants; its empty speech baseline and mixed fusion result support no general quality or productivity claim.
 
 [Raw reports and limitations](docs/RESULTS.md) separate local integration checks, model smoke tests and retrieval measurements. These results do not establish user time savings, production scale or a general multimodal quality advantage. The [remote CI run for `cf218ef`](https://github.com/RiverHe2000/replay-studio/actions/runs/35598044321) passed backend and frontend checks; that push run did not execute the optional container job. [Current Actions results](https://github.com/RiverHe2000/replay-studio/actions/workflows/ci.yml).
 
@@ -68,6 +71,6 @@ pnpm --dir frontend typecheck
 pnpm --dir frontend build
 ```
 
-[Browser verification](frontend/README.md#real-browser-integration-checks) uses a disposable running server and an actually processed recording. [Review notes](docs/REVIEW.md) document failure cases and fixes. Source media, model weights, local accounts and databases stay outside Git.
+[Browser verification](frontend/README.md#real-browser-integration-checks) uses a disposable running server and an actually processed recording. [Review notes](docs/REVIEW.md) document failure cases and fixes. Private source media, model weights, local accounts and databases stay outside Git; the controlled pilot's synthetic-content viewport recordings are deliberately retained for audit.
 
-Default limits are 512 MiB / 30 minutes per source, 2 GiB of original and unfinished-upload bytes per project, and a 30-clip / 10-minute timeline. These are application limits, not a global storage quota. A real held-out recording corpus, independently annotated queries and external user sessions remain future work under the evaluation protocol.
+Default limits are 512 MiB / 30 minutes per source, 2 GiB of original and unfinished-upload bytes per project, and a 30-clip / 10-minute timeline. These are application limits, not a global storage quota. Source-diverse recordings, independent human annotation and external user sessions remain future work under the evaluation protocol.
