@@ -1,46 +1,47 @@
 # Replay Studio
 
-把技术录屏里的语音、屏幕文字和画面变成可核对的时间证据，再编辑、保存并导出真正的 MP4。
+Find a moment in a technical recording, check the speech and screen evidence, then edit and export a clip with its source timestamps intact.
 
-这是可本地运行的完整应用：React/TypeScript 工作台、FastAPI、持久任务图、真实 ASR/OCR/CLIP、可选本地 VLM 和受约束的模型剪辑建议。第一版支持单视频时间线、原音频、片段拼接与独立 SRT 字幕；项目可以包含多份素材。
+**React / TypeScript · FastAPI · ASR / OCR / CLIP · durable workers · PostgreSQL / S3 adapters**
 
-> 实现与评测不是同一件事。仓库包含真实模型、媒体、故障恢复与浏览器验证；合成录屏只用于技术验收。没有把它当成真实用户研究，也没有据此宣称视觉融合优于语音基线。具体证据见 [验证报告](docs/RESULTS.md) 与 [复审记录](docs/REVIEW.md)。
+[View the demo](docs/DEMO.md) · [Play a ~20-second exported sample](artifacts/demo-reviewed/output.mp4) · [Measured results](docs/RESULTS.md) · [中文说明](README.zh-CN.md)
 
-![实际运行的检索与剪辑工作台](artifacts/browser/demo-ready.png)
+![Replay Studio showing source evidence, search results and a saved timeline](artifacts/browser/demo-ready.png)
 
-## 可以实际使用的功能
+## The problem and the workflow
 
-- 分块上传、精确重放检查、断点续传、SHA-256、大小/项目容量限制、取消与删除。
-- FFmpeg 代理、音频和采帧；保持变帧率与延迟音轨的播放时间关系。
-- faster-whisper 转写、RapidOCR 屏幕文字、CLIP 画面检索；语音、语音＋OCR、融合三种可比较模式。
-- 可选 SmolVLM 画面解释，明确标记为未核实推断；可选本地 LLM 只选择已存在的证据 ID。
-- 真实播放器、证据跳转、片段顺序/入出点/字幕编辑、撤销、预览、不可变版本和编辑冲突处理。
-- 保存版本后导出 MP4、SRT、来源清单；导出绑定该版本，后续编辑不会改变已提交任务。
-- owner/editor/viewer 权限、项目共享、带素材时间戳的评论；所有媒体下载都经过权限检查。
-- CPU/加速任务队列、单加速资源租约、心跳、重试、取消、旧 worker 提交隔离、阶段缓存。
-- SQLite＋本地对象的轻量运行方式；PostgreSQL＋S3 的部署适配与备份恢复工具。
+A useful debugging moment may be spoken, visible only on screen, or spread across both. Replay Studio keeps those evidence types attached to the recording so a reviewer can inspect a result before using it in an edit.
 
-## 本机打开
+1. Upload a recording; recover interrupted uploads and follow processing progress.
+2. Search speech, speech plus screen text, or fused evidence; jump to the original timestamp.
+3. Build a single-source timeline, adjust clip boundaries and captions, preview, then save an immutable version.
+4. Export MP4, separate SRT subtitles and a source manifest bound to that saved version.
 
-已构建的本机演示地址为 **http://127.0.0.1:8080**。登录资料保存在忽略版本控制的 `data/demo-access.json`；只用于本机演示，不要发布该文件。预置录屏在每帧明确注明合成演示。
+The [demo guide](docs/DEMO.md) includes committed screenshots, the actual exported clip and its source manifest. Reviewing those artifacts needs no account, model download or running server. The sample is a visibly labelled **synthetic integration fixture**, not a real production incident or a user study.
 
-若服务已停止，在仓库根目录执行：
+## What has been measured
 
-```powershell
-.\scripts\start_local.ps1 -DataDirectory data/demo
-```
+| Evidence | Recorded result | What it establishes |
+|---|---|---|
+| Fresh Windows CPU environment | Real ASR/OCR/CLIP, HTTP upload, FFmpeg and export passed; 30-second fixture analysed in 37.578 seconds | The locked local installation completes the media workflow; cached public weights were reused |
+| Automated checks | 119 backend/media/workflow tests and 3 browser checks passed in the recorded local run | Specific workflow, media timing, permission and conflict invariants |
+| PostgreSQL and S3 recovery | 15 restored tables and 39 object hashes matched; login, playback, retrieval and export worked after restore | Recovery against actual services on the Windows development host |
+| Small retrieval diagnostic | Speech Recall@1: 2/3; fusion: 1/3; both rejected 2/2 unanswerable queries | Fusion did not improve top-1 retrieval on this single synthetic fixture |
 
-第一次运行新工作区：
+[Raw reports and limitations](docs/RESULTS.md) separate local integration checks, model smoke tests and retrieval measurements. These results do not establish user time savings, production scale or a general multimodal quality advantage. The [remote CI run for `cf218ef`](https://github.com/RiverHe2000/replay-studio/actions/runs/35598044321) passed backend and frontend checks; that push run did not execute the optional container job. [Current Actions results](https://github.com/RiverHe2000/replay-studio/actions/workflows/ci.yml).
 
-```powershell
-.\scripts\start_local.ps1
-```
+## Engineering decisions
 
-浏览器创建首个账户即可。后续注册默认关闭；需要第二个账户时由管理员暂时设置 `REPLAY_REGISTRATION_OPEN=true` 后重启 API。项目所有者通过已有账户邮箱授予权限，不会发送邀请邮件。
+- **Evidence before generation.** ASR, OCR and visual retrieval retain source time ranges. Optional local models can select existing evidence IDs; invalid output is rejected. VLM descriptions remain visibly unverified.
+- **Recoverable processing.** Persistent stage jobs use leases, heartbeats, retries and stale-worker fencing. A single accelerator lease limits resource contention; stage caches include model/configuration identity.
+- **Stable edits and exports.** Optimistic version checks protect concurrent edits. Exports reference an immutable saved timeline, so later editing cannot change an in-flight render.
+- **Explicit access.** Owner/editor/viewer roles protect projects and media downloads. SQLite with local storage supports development; PostgreSQL and S3 adapters have actual service and restore evidence.
 
-## 从干净环境安装
+The current timeline edits one source recording, with original audio and separate subtitles. Cross-source editing, automatic saving and dense VLM inspection are not implemented. The local VLM added substantial latency without a demonstrated retrieval-quality benefit. [Architecture](docs/ARCHITECTURE.md) · [Security boundaries](docs/SECURITY.md) · [Evaluation protocol](docs/EVALUATION.md).
 
-需要 Python 3.12、Node.js 22、pnpm、FFmpeg/ffprobe。Windows x64 和 Linux x86-64 使用各自的 CPU 模型锁；Docker 文件固定 Linux amd64。模型首次运行会下载权重，离线环境应先准备模型缓存。
+## Run from a fresh checkout
+
+The verified full-model installation targets **Windows x64, Python 3.12, Node.js 22, pnpm and FFmpeg/ffprobe**. FFmpeg must be on PATH. First model use downloads public weights unless already cached; this workflow needs no paid model API.
 
 ```powershell
 python -m venv .venv
@@ -51,28 +52,13 @@ pnpm --dir frontend build
 .\scripts\start_local.ps1
 ```
 
-`requirements-dev.lock` 为 API/测试工具锁，不包含神经网络权重；`requirements-core.lock` 用于仅运行 API。Linux CPU 部署使用 `requirements-cpu.lock`；Linux CUDA 部署另用 `requirements-cuda.lock` 与官方 cu128 wheel 索引。不要混用 CPU/CUDA 环境中的 Torch 和 torchvision。Windows CPU 锁已在完全独立环境按哈希安装，并跑通真实三模态到导出流程；Linux/CUDA 锁仍需在对应目标环境验证。
+Open **http://127.0.0.1:8080** and create the first local account. The launcher starts the API and a separate worker against the same local data directory. Subsequent account registration is closed by default. To reproduce the scripted sample in a separate workspace, follow [the demo setup](docs/DEMO.md#reproduce-the-sample-locally) before creating an account there.
 
-Linux/macOS 的开发进程可分别执行 `python -m replay_studio.cli serve` 与 `python -m replay_studio.cli worker --queue all`；macOS 未做实机验证，不把 Linux/Windows 锁称为 macOS 锁。
+Linux CPU/CUDA locks and Docker deployment files are provided, but the complete Linux/CUDA model pipeline has not been validated on its target environment. The remote push checks do not change that boundary. macOS is unverified. See [operations](docs/OPERATIONS.md) for processes, storage, backup and deployment requirements, and [the Chinese guide](README.zh-CN.md) for detailed local model settings.
 
-## 生成可复现的演示
+## Verify
 
-API 和 worker 使用相同 `REPLAY_DATA_DIR`。在空工作区首次创建合成演示：
-
-```powershell
-.\.venv\Scripts\python.exe scripts/generate_fixture.py --audio
-.\.venv\Scripts\python.exe scripts/seed_demo.py
-```
-
-如果只启动 API、没有 worker，增加 `--run-worker` 并确保脚本数据配置与 API 相同。`seed_demo.py` 通过真实上传和处理流程运行，不向索引插入答案。已经创建其他首个账户时，改用 `verify_e2e.py` 并通过 `REPLAY_VERIFY_EMAIL/PASSWORD` 提供已有测试账户。
-
-## 验证与工程文档
-
-默认使用 CPU 上的 Whisper base、RapidOCR、CLIP 和确定性证据规划。开启可选 VLM 时，API 与 worker 均设置 `REPLAY_VLM_MODEL=HuggingFaceTB/SmolVLM-256M-Instruct`；可用 `REPLAY_VLM_REVISION` 固定模型 commit。它仅处理最多 12 张稀疏帧，质量与额外延迟见验证报告。
-
-本地模型规划由 API 的 `REPLAY_PLANNER_MODEL` 指定模型 ID 或本地权重目录；`REPLAY_PLANNER_DEVICE` 只接受 `cpu`。本机已实际验证 `D:/models/Qwen3-4B-Instruct-2507` 的小输入规划。较小模型可能返回不符合契约的结果，系统会明确提示并使用确定性基线。模型返回合法空选择时保持拒答。
-
-`REPLAY_ASR_REVISION`、`REPLAY_VISUAL_REVISION` 和 `REPLAY_VLM_REVISION` 固定远端权重；ASR 使用本地目录时不能同时指定远端 revision。设定参数前先停旧 API/worker，再让两者使用同一配置启动；已有任务仍使用提交时冻结的参数。
+After the CPU installation above:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements-dev.lock
@@ -82,17 +68,6 @@ pnpm --dir frontend typecheck
 pnpm --dir frontend build
 ```
 
-真实浏览器验收及凭证环境变量见 [前端说明](frontend/README.md)。模型权重、媒体源文件、秘密和运行数据库不进入版本库。
+[Browser verification](frontend/README.md#real-browser-integration-checks) uses a disposable running server and an actually processed recording. [Review notes](docs/REVIEW.md) document failure cases and fixes. Source media, model weights, local accounts and databases stay outside Git.
 
-| 文档 | 内容 |
-|---|---|
-| [架构与取舍](docs/ARCHITECTURE.md) | 状态机、时间、证据、缓存与部署边界 |
-| [验证结果](docs/RESULTS.md) | 实际运行、测试、负结果与证据链接 |
-| [独立复审](docs/REVIEW.md) | 发现的问题、修复和回归验证 |
-| [运维手册](docs/OPERATIONS.md) | Compose、模型、恢复、备份、存储回收 |
-| [评测协议](docs/EVALUATION.md) | 真实素材标注、隔离切分、消融和用户试用 |
-| [安全边界](docs/SECURITY.md) | 身份、上传、模型权限、部署前提 |
-
-默认上限为单素材 512 MiB/30 分钟，项目原件与未完成上传合计 2 GiB；代理最高 1080p、2 秒采一帧、最多 900 帧；时间线最多 30 个片段/10 分钟。它们不是全局磁盘配额，模型缓存、代理、失败尝试和导出也会占空间。详见运维手册。
-
-尚未达到原 proposal 的全部外部验收：授权的 20–30 段真实语料、150 条独立标注、5–8 人对照试用和云端持续运行仍待开展；候选窗口密集 VLM 精读、自动保存和跨素材剪辑也未实现。当前采用稀疏 VLM 描述、显式保存和单素材时间线。请以验证报告中能复现的结果作为简历依据。
+Default limits are 512 MiB / 30 minutes per source, 2 GiB of original and unfinished-upload bytes per project, and a 30-clip / 10-minute timeline. These are application limits, not a global storage quota. A real held-out recording corpus, independently annotated queries and external user sessions remain future work under the evaluation protocol.
