@@ -1,0 +1,47 @@
+{
+  "protocol_id": "controlled-browser-screen-v1",
+  "status_at_freeze": "before_recording_and_model_evaluation",
+  "recording_operator": "AI agent executing Playwright; no human participants",
+  "recording_source": "Real Chromium viewport of local file-note-copilot; scripted model backend and seeded synthetic meeting content",
+  "source_app_commit": "e4f4f0c27f9df46c9c495d0c258d764df4690617",
+  "retrieval_code_commit": "821142a55216062d03a751de4dea426dc473b70c",
+  "source_group": "file-note-controlled-session-v1",
+  "split": "controlled_pilot",
+  "corpus": {"size": 12, "seed": 11, "meetings": [0, 1]},
+  "target": {"recordings": 2, "total_seconds": [120, 240], "viewport": [1280, 900], "audio": false},
+  "backend": {"kind": "GoldFakeChatModel", "corruption_probability": 1.0, "seed": 0, "kinds": ["invented_decision", "repair_keep"]},
+  "label_policy": {
+    "author": "AI-authored task references, checked against operation logs and recorded frames; not human/expert gold",
+    "time_windows": "All intervals where the requested visual state is readable in the viewport, including later recurrences; never reduce long states to a point or one sampled frame",
+    "sampling": "DOM predicates sampled at 100 ms; visible means at least half the target area remains after viewport and scroll-container clipping",
+    "verification": "Review transition-adjacent frames and interior frames before running OCR/CLIP; record corrections with reasons. Never derive labels from OCR, CLIP, retrieval hits, or generated captions",
+    "timing_uncertainty_seconds": 0.25,
+    "negative_policy": "No acceptable intervals if the requested feature never appears anywhere in the recording"
+  },
+  "model_policy": {"device": "cpu", "threads": 2, "offline_cache_only": true, "visual_model": "openai/clip-vit-base-patch32", "visual_min_similarity": 0.27, "vlm": false, "planner": false, "asr": "none: silent source", "frame_sample_seconds": 2},
+  "metrics": {
+    "primary": "Existing evaluator Recall@1/3/5 at IoU >= 0.3, top-1 IoU, negative false-positive rate; do not change existing retrieval code or thresholds",
+    "secondary": "Evidence-time hit@1/3/5: any returned evidence timestamp falls inside any full acceptable interval. This point-localization diagnostic is distinct from clip-boundary quality",
+    "boundary": "For answerable queries with a top hit, report nearest reference interval start/end absolute errors (minimum combined error), including misses; no-hit is missing, not zero error",
+    "aggregation": "Report each recording and pooled counts. Both recordings share one source group, so no independent-video confidence interval or generalization claim",
+    "decision": "Descriptive pilot only. Any screen-only lift versus an empty speech baseline is expected by construction. Report false positives and indexing time with recall; no user time-savings or general fusion superiority claim"
+  },
+  "tasks": [
+    {"asset_id": "correction-approval", "meeting_index": 0, "workflow": "Paste synthetic transcript, choose verified workflow, draft, inspect unsupported decision, edit it, save and approve", "queries": [
+      {"id": "a-transcript", "query": "Show the pasted meeting transcript before drafting the note.", "predicate": "transcript_before_draft", "answerable": true},
+      {"id": "a-unsupported", "query": "Where is the unsupported decision flagged for review?", "predicate": "unsupported_visible", "answerable": true},
+      {"id": "a-editor", "query": "Find the claim text editor while the unsupported decision is being corrected.", "predicate": "editor_visible", "answerable": true},
+      {"id": "a-approved", "query": "Show the approved note and its changed lines.", "predicate": "approval_visible", "answerable": true},
+      {"id": "a-absent", "query": "Show the Kubernetes deployment configuration.", "predicate": "never", "answerable": false}
+    ]},
+    {"asset_id": "evidence-feedback", "meeting_index": 1, "workflow": "Choose verified workflow, draft from a different synthetic transcript, follow an evidence chip, mark needs-work feedback, type a comment and submit feedback", "queries": [
+      {"id": "b-strategy", "query": "Where is the extract compose verify repair strategy selected?", "predicate": "verified_strategy_visible", "answerable": true},
+      {"id": "b-evidence", "query": "Show the highlighted transcript segment after following an evidence reference.", "predicate": "highlight_visible", "answerable": true},
+      {"id": "b-comment", "query": "Where is the needs work feedback comment being entered?", "predicate": "feedback_comment_visible", "answerable": true},
+      {"id": "b-submitted", "query": "Find the feedback recorded confirmation.", "predicate": "feedback_recorded_visible", "answerable": true},
+      {"id": "b-absent", "query": "Show the credit card payment checkout.", "predicate": "never", "answerable": false}
+    ]}
+  ],
+  "retention": "Publish only viewport recordings, synthetic content, event logs, labels and measured reports. No private desktop, credentials, actual client data or existing database",
+  "deviations": "Record any execution or annotation deviation before inspecting model predictions. Do not tune queries, thresholds, or recordings to improve retrieval scores"
+}
